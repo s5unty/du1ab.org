@@ -1,0 +1,17 @@
+# alip's jekyll config
+# vim: set ft=yaml et ts=2 sts=2 :
+
+# Configuration
+markdown: rdiscount
+#permalink: "/:year/:categories/:title"
+permalink: "/:year/:categories/:title.html"
+pygments: true
+lsi: false
+
+# Custom variables
+title: "Vern's Blog"
+url: http://s5unty.github.com/
+cloud_html: _includes/cloud.html
+cloud_size: 50
+cloud_max_ranks: 10
+tags_directory: tags

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+    <div class="post">
+      {{ content }}
+    </div>
+    <hr />
+    <div class="post_info">
+      vern@{{ page.date | date:"%F" }}:/{{ page.categories | array_to_sentence_string }}/$ cat tags<br />
+      {{ page.tags | array_to_sentence_string }}
+    </div>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript" src="http://disqus.com/forums/s5unty/embed.js"></script>
+    <noscript><p><a href="http://disqus.com/forums/s5unty/?url=ref">View the discussion thread.</a></p></noscript>
+
+<!-- vim: set et tw=100 ts=2 sts=2 sw=2 : -->

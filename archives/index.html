@@ -1,0 +1,15 @@
+---
+layout: default
+title: Archives
+---
+
+{% if site.posts.size > 1 %}
+  <hr />
+  <ul class="post">
+  {% for post in site.posts offset: 0 %}
+    <li><a href="{{ post.url }}"><span>{{ post.date | date:"%Y-%m-%d" }}</span> &raquo; {{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+<!-- vim: set et tw=100 ts=2 sts=2 sw=2 : -->

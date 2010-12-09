@@ -1,0 +1,307 @@
+/*
+ * Copyright 2009, 2010 Ali Polatel <alip@exherbo.org>
+ * Based in part upon:
+ *  Screen CSS for 0x90.dk
+ *  Copyright 2009 Alexander Færøy <ahf@exherbo.org>
+ *
+ */
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "verdana", sans-serif;
+  font-size: 9pt;
+  color: #333333;
+  background: #e0e0e0;
+}
+
+a,
+a:visited,
+a:link,
+a:active {
+  color: #3d3d3d;
+  text-decoration: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px dotted #000000;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px dotted #000000;
+  background-color: #7a7a7a;
+}
+
+blockquote {
+  font: 14px/20px italic Times, serif;
+  padding: 8px;
+  margin: 5px;
+  background-image: url(/images/quotes/open.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  text-indent: 23px;
+}
+
+blockquote span {
+   display: block;
+}
+
+img {
+  border: 0px dashed;
+  border-color: gray;
+  padding: 2px;
+}
+
+pre {
+  background: #f8f8f8;
+  border: 1px solid #e7e5dC;
+  border-width: 1px 0 4px 6px;
+  padding: 1em;
+  overflow: auto;
+  color: black;
+  line-height: 120%;
+  font-family: "consolas", "monaco", "courier new", "courier", monospace;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+pre#geekcode {
+  background-color: #000000;
+  color: #dddddd;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #203058;
+  width: 45em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th { text-align:left; }
+
+tt {
+  color: #022355;
+  white-space: nowrap;
+}
+
+div#header {
+  background: url("/images/header.png") repeat-x;
+}
+
+div#header a {
+  color: #e0e0e0;
+  font-weight: bold;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+div#header a:hover {
+  color: #ffffff;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+div#header h1 {
+  height: 50px;
+  font-size: 38px;
+  color: #ffffff;
+  letter-spacing: -1px;
+  margin: 0px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+div#header ul {
+  height: 25px;
+  background: #888888;
+  color: #ffffff;
+  border-bottom: 2px solid #000;
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 35px;
+  padding-top: 5px;
+}
+
+div#header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 5px;
+}
+
+div#header li a {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "arial", "tahoma", "verdana";
+  font-weight: bold;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+div#header li a:hover {
+  text-decoration: underline;
+}
+
+div#footer {
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  border-top: 2px solid #000;
+  background-color: #666666;
+  padding-bottom: 5px;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+div#footer a {
+  color: #ffffff;
+  border: 0;
+  font-family: "arial", "tahoma", "verdana";
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div#footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+div#footer img {
+  border: none;
+}
+
+div#content {
+  float: left;
+  width: 65%;
+  margin: 20px;
+  padding: 5px 5px 10px 10px;
+  text-align: left;
+}
+
+div#menu {
+  margin: 20px;
+  padding: 0 10px 10px 0;
+  float: left;
+  width: 200px;
+  text-align: left;
+}
+
+div#menu ul {
+  margin-left: 0px;
+  padding-left: 25px;
+}
+
+div#menu h3 {
+  font-variant: small-caps;
+  margin: 0;
+}
+
+div#menu p {
+  padding: 0 0 8px 8px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+div#left-column {
+  width: 320px;
+  float: left;
+  padding-right: 10px;
+}
+
+div#right-column {
+  width: 280px;
+  float: right;
+  padding-left: 10px;
+}
+
+div.post {
+  padding-right: 50px;
+  padding-left: 10px;
+}
+
+div.post_info p {
+  font-family: "verdana", sans-serif;
+  font-size: 9pt;
+  font-style: italic;
+  line-height: 1.0;
+  padding-right: 50px;
+  padding-left: 10px;
+}
+
+div.post_title a,
+div.post_title a:visited,
+div.post_title a:link,
+div.post_title a:active,
+div.post_title a:hover {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+div#social a,
+div#social a:visited,
+div#social a:link,
+div#social a:active,
+div#social a:hover {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+div#social img {
+  border: none;
+}
+
+div#gallery img {
+  border: none;
+}
+
+div#gallery ul {
+  margin: 0;
+  padding: 0 0 10px 0;
+  text-align: justify;
+}
+
+div#gallery ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  line-height: 0.9;
+  background: none;
+}
+
+div#cloud ul {
+  margin: 0;
+  padding: 0 0 10px 0;
+  text-align: justify;
+}
+
+div#cloud ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  line-height: 0.9;
+  background: none;
+}
+
+div#cloud ul li a { border-bottom: none; }
+
+div#cloud ul .cloud-rank-1 { font-weight: bold; font-size: 2.4em; }
+div#cloud ul .cloud-rank-2 { font-weight: bold; font-size: 2.2em; }
+div#cloud ul .cloud-rank-3 { font-weight: bold; font-size: 2.0em; }
+div#cloud ul .cloud-rank-4 { font-size: 1.8em; }
+div#cloud ul .cloud-rank-5 { font-size: 1.6em; }
+div#cloud ul .cloud-rank-6 { font-size: 1.4em; }
+div#cloud ul .cloud-rank-7 { font-size: 1.2em; }
+div#cloud ul .cloud-rank-8 { font-style: italic; font-size: 1.0em; }
+div#cloud ul .cloud-rank-9 { font-style: italic; font-size: 0.9em; }
+div#cloud ul .cloud-rank-10 { font-style: italic; font-size: 0.8em; }
+
+/* vim: set et ts=2 sts=2 sw=2 : */

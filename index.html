@@ -1,0 +1,20 @@
+---
+layout: default
+title: Do You Wanna Be A DD
+---
+
+<div id="left-column">
+  <h2><a href="https://twitter.com/s5unty">Tweets</a></h2>
+  <div class="tweet"></div>
+</div>
+
+<div id="right-column">
+  <h2><a href="/archives/">Posts</a></h2>
+  <ul class="post">
+    {% for post in site.posts limit:15 %}
+    <li><a href="{{ post.url }}"><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- vim: set et tw=100 ts=2 sts=2 sw=2 : -->
