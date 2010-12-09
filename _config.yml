@@ -10,7 +10,7 @@ lsi: false
 
 # Custom variables
 title: "Vern's Blog"
-url: http://s5unty.github.com/
+url: http://du1abadd.org
 cloud_html: _includes/cloud.html
 cloud_size: 50
 cloud_max_ranks: 10

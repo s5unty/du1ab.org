@@ -1,8 +1,9 @@
 /*
- * Copyright 2009, 2010 Ali Polatel <alip@exherbo.org>
+ * Copyright 2010, 2011 Vern Sun <s5unty@gmail.com>
  * Based in part upon:
  *  Screen CSS for 0x90.dk
  *  Copyright 2009 Alexander Færøy <ahf@exherbo.org>
+ *  Copyright 2009, 2010 Ali Polatel <alip@exherbo.org>
  *
  */
 
@@ -39,18 +40,17 @@ a:hover {
   background-color: #7a7a7a;
 }
 
-blockquote {
-  font: 14px/20px italic Times, serif;
-  padding: 8px;
-  margin: 5px;
-  background-image: url(/images/quotes/open.png);
-  background-position: top left;
-  background-repeat: no-repeat;
-  text-indent: 23px;
-}
-
 blockquote span {
    display: block;
+}
+
+blockquote {
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 18px;
+  padding-left: 10px;
+  border-left: 4px solid #cccccc;
 }
 
 img {
@@ -60,23 +60,15 @@ img {
 }
 
 pre {
-  padding-left: 20px;
+  font-family: sans-serif;
+  background-color: #cccccc;
+  padding: 5px;
+  padding-left: 18px;
 }
 
-code {
-  font-family: "consolas", "monaco", "courier new", "courier", monospace;
-}
-
-pre#geekcode {
-  background-color: #000000;
-  color: #dddddd;
-  padding: 10px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #203058;
-  width: 45em;
-  margin-left: auto;
-  margin-right: auto;
+pre code {
+  font-family: monospace;
+  white-space: pre;
 }
 
 th { text-align:left; }
@@ -225,7 +217,18 @@ div#right-column {
   padding-left: 10px;
 }
 
+div#left-column p {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+div#left-column #tweets_time a {
+  color: #a0a0a0;
+  border-bottom: none;
+}
+
 ul.post {
+  padding-left: 5px;
   list-style-type: none;
   margin-bottom: 2em;
 }
@@ -246,7 +249,7 @@ ul.post a {
 }
 
 div.post {
-  padding-right: 50px;
+  padding-right: 20px;
   padding-left: 10px;
 }
 
@@ -268,7 +271,7 @@ div.post_title a:hover {
   text-decoration: none;
   border-bottom: none;
 }
-
+/*
 div#social a,
 div#social a:visited,
 div#social a:link,
@@ -281,7 +284,7 @@ div#social a:hover {
 div#social img {
   border: none;
 }
-
+*/
 div#gallery img {
   border: none;
 }
