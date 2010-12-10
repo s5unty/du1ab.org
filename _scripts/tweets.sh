@@ -22,7 +22,11 @@ rt() {
 		term="week" # 3 周前 (21 天前)
     fi
 
-	if [ $diff -gt 1 ]; then term=$term"s"; fi
+	if [ $diff -gt 1 ]; then
+		term=$term"s"
+	else
+		diff="1"
+	fi
 	echo "$diff $term ago";
 }
 
