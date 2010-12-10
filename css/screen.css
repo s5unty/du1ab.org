@@ -228,6 +228,7 @@ div#left-column p {
   padding-left: 10px;
 }
 
+div#left-column #tweets_time,
 div#left-column #tweets_time a {
   color: #a0a0a0;
   border-bottom: none;

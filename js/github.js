@@ -27,10 +27,10 @@
 			api: 'repos',
 			branch: 'master',
 			gravatar: false,
-			max: 0,
+			max: 3,
 			repo: null,
 			filters: [],
-			footer: '<li class="footer"><a>Show all (%total%)</a></li>',
+			footer: '',
 			forks: false,
 			owner: true,
 			tpl: '<li><div><h3><a href="%url%">%name%</a></h3><p>%description%</p><span>Forks: %forks% | Watchers: %watchers% | Homepage: %homepage%</span></div></li>',
@@ -41,10 +41,10 @@
 		var obj = 'repositories';
 		if ('commits' == args.api) {
 			obj = 'commits';
-			// enable gravatar by default
-			defaults.gravatar = 's=30';
+			// disable gravatar by default
+			defaults.gravatar = '';
 			// overwrite default template when using `commits` API
-			defaults.tpl = '<li><p>%message%</p><img src="%gravatar%"><span><a href="mailto:%author_email%">%author_name%</a></span> <span>(%authored_date%)</span> </li>';
+			defaults.tpl = '<p>%message%<br/><span id="tweets_time">%authored_date%</span></p>';
 		}
 
 		// merge args and defaults
