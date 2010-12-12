@@ -1,9 +1,6 @@
-# alip's jekyll config
-# vim: set ft=yaml et ts=2 sts=2 :
-
 # Configuration
+# 同样实现了 markdown，区别在于 rdiscount/c 无扩展语法，maruku/ruby 带扩展语法
 markdown: rdiscount
-#permalink: "/:year/:categories/:title"
 permalink: "/:year/:categories/:title.html"
 pygments: true
 lsi: false
