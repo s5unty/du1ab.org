@@ -9,6 +9,6 @@ lsi: false
 title: "Vern's Blog"
 url: http://du1abadd.org
 cloud_html: _includes/cloud.html
-cloud_size: 50
+cloud_size: 100
 cloud_max_ranks: 10
 tags_directory: tags

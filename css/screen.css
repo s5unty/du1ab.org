@@ -41,7 +41,8 @@ a:hover {
 }
 
 div .highlight {
-  height: 580px;
+  min-height: 200px;
+  max-height: 640px;
   overflow: auto;
   background-color: #cccccc;
 }
@@ -70,6 +71,8 @@ pre {
   background-color: #cccccc;
   padding: 5px;
   padding-left: 18px;
+  max-height: 640px;
+  overflow: auto;
 }
 
 pre code {
@@ -103,7 +106,6 @@ div#header a:hover {
 }
 
 div#header h1 {
-  text-shadow: 2px 2px 2px;
   height: 50px;
   font-size: 38px;
   color: #ffffff;
@@ -186,7 +188,6 @@ div#content h1,
 div#content h2,
 div#content h1 a,
 div#content h2 a {
-  text-shadow: 1px 1px 1px;
   font-weight: bold;
   border-bottom: none;
 }
@@ -336,8 +337,8 @@ div#cloud ul .cloud-rank-2 { font-weight: bold; font-size: 2.2em; }
 div#cloud ul .cloud-rank-3 { font-weight: bold; font-size: 2.0em; }
 div#cloud ul .cloud-rank-4 { font-size: 1.8em; }
 div#cloud ul .cloud-rank-5 { font-size: 1.6em; }
-div#cloud ul .cloud-rank-6 { font-size: 1.4em; text-shadow: 1px 1px 1px; }
-div#cloud ul .cloud-rank-7 { font-size: 1.2em; text-shadow: 1px 1px 1px; }
+div#cloud ul .cloud-rank-6 { font-size: 1.4em; }
+div#cloud ul .cloud-rank-7 { font-size: 1.2em; }
 div#cloud ul .cloud-rank-8 { font-style: italic; font-size: 1.0em; }
 div#cloud ul .cloud-rank-9 { font-style: italic; font-size: 0.9em; }
 div#cloud ul .cloud-rank-10 { font-style: italic; font-size: 0.8em; }
