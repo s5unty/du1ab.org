@@ -5,6 +5,9 @@ permalink: "/:year/:categories/:title.html"
 pygments: true
 lsi: false
 
+rdiscount:
+    extensions: [smart, generate_toc]
+
 # Custom variables
 title: "Vern's Blog"
 url: http://du1abadd.org
