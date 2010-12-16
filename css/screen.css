@@ -54,9 +54,9 @@ blockquote {
 }
 
 img {
-  border: 0px dashed;
-  border-color: gray;
-  padding: 0px;
+  border: 1px solid #aaa;
+  background: #fff;
+  padding: 4px;
 }
 
 pre {
@@ -168,6 +168,8 @@ div#footer a:hover {
 
 div#footer img {
   border: none;
+  background: none;
+  padding: 0px;
 }
 
 div#content {
