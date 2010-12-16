@@ -48,24 +48,6 @@
       });
     });
   </script>
-  <!-- JQuery Tweet -->
-  <script src="/js/jquery.tweet.js" type="text/javascript"></script>
-  <script type='text/javascript'>
-      $(document).ready(function(){
-          $(".tweet").tweet({
-              username: "s5unty",
-              join_text: "auto",
-              avatar_size: 36,
-              count: 5,
-              auto_join_text_default: "",
-              auto_join_text_ed: "",
-              auto_join_text_ing: "",
-              auto_join_text_reply: "",
-              auto_join_text_url: "",
-              loading_text: "Loading Tweets..."
-          });
-      });
-  </script>
 </head>
 <body>
   <div id="header">
@@ -78,7 +60,6 @@
     {% include menu.html %}
   </div>
   {% include footer.html %}
-  {% include google-analytics.html %}
   {% include disqus.html %}
 </body>
 </html>
