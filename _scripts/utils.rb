@@ -15,8 +15,9 @@ module Slugalizer
     end
     re_separator = Regexp.escape(separator)
     result = decompose(text.to_s)
-    result.gsub!(/[^\x00-\x7F]+/, '') # Remove non-ASCII (e.g. diacritics).
-    result.gsub!(/[^a-z0-9\-_\+]+/i, separator) # Turn non-slug chars into the separator.
+    # support CJK charactar/word
+    #result.gsub!(/[^\x00-\x7F]+/, '') # Remove non-ASCII (e.g. diacritics).
+    #result.gsub!(/[^a-z0-9\-_\+]+/i, separator) # Turn non-slug chars into the separator.
     result.gsub!(/#{re_separator}{2,}/, separator) # No more than one of the separator in a row.
     result.gsub!(/^#{re_separator}|#{re_separator}$/, '') # Remove leading/trailing separator.
     result.downcase!
