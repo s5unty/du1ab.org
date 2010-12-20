@@ -29,13 +29,15 @@ env -i git checkout .
 # cd to blog/
 cd ..
 
-# 重新生成 tags 页面和 tweets 页面
+# 重新生成 tags 页面
 make clean
 make
-env -i _scripts/tweets.sh
 
 # 执行发布程序
 jekyll . site
+
+# tweets 只能在首页发布后重新生成
+env -i _scripts/tweets.sh
 
 # 通知远端，blog/ 发布成功
 if [ $? -eq 0 ]; then
