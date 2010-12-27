@@ -63,9 +63,9 @@ pre {
   font-family: sans-serif;
   background-color: #cccccc;
   padding: 5px;
-  padding-left: 18px;
+  padding-left: 2em;
   min-height: 1em;
-  max-height: 640px;
+  max-height: 40em;
   overflow: auto;
 }
 
