@@ -84,6 +84,7 @@ tt {
 
 div#header {
   background: url("/images/header.png") repeat-x;
+  border-bottom: 2px solid #000;
 }
 
 div#header a {
