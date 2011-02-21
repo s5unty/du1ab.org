@@ -1,33 +1,36 @@
 #!/bin/sh
 
 rt() {
-    time=$(date -d "${1}" +%s)
-    curr=$(date +%s)
-    shift=$(($curr - $time));
+	time=$(date -d "${1}" +%s)
+	curr=$(date +%s)
+	shift=$(($curr - $time))
 
 	if [ $shift -lt 45 ]; then
 		diff="$shift"
 		term="second" # 45 秒前
 	elif [ $shift -lt 2700 ]; then
-        diff="$(($shift / 60))"
+		diff="$(($shift / 60))"
 		term="minute" # 45 分钟前
 	elif [ $shift -lt 64800 ]; then
-        diff="$(($shift / 60 / 60))"
+		diff="$(($shift / 60 / 60))"
 		term="hour" # 18 小时前
-    elif [ $shift -lt 518400 ]; then
-        diff="$(($shift / 60 / 60 / 24))"
+	elif [ $shift -lt 518400 ]; then
+		diff="$(($shift / 60 / 60 / 24))"
 		term="day" # 6 天前
-    elif [ $shift -lt 1814400 ]; then
-        diff="$(($shift / 60 / 60 / 24))"
+	elif [ $shift -lt 1814400 ]; then
+		diff="$(($shift / 60 / 60 / 24 / 7))"
 		term="week" # 3 周前 (21 天前)
-    fi
+	else
+		echo "$(date -d "${1}" +%F)"
+		return
+	fi
 
 	if [ $diff -gt 1 ]; then
 		term=$term"s"
 	else
 		diff="1"
 	fi
-	echo "$diff $term ago";
+	echo "$diff $term ago"
 }
 
 xml=$(curl -s --basic http://twitter.com/statuses/user_timeline/s5unty.rss?count=1)
@@ -44,6 +47,6 @@ read  -rd '' link <<< "$link"
 
 for file in "/sun/blog/site/index.html"
 do
-  perl -pi -e 'BEGIN { $x = shift; $y = shift; } s/$x/$y/g' -- "<span id=\"tweets\">.*</span>" "<span id=\"tweets\">$desc</span>" $file
-  perl -pi -e 'BEGIN { $x = shift; $y = shift; } s/$x/$y/g' -- "<span id=\"tweets_time\">.*</span>" "<span id=\"tweets_time\"><a href=\"$link\">$date</a></span>" $file
+	perl -pi -e 'BEGIN { $x = shift; $y = shift; } s/$x/$y/g' -- "<span id=\"tweets\">.*</span>" "<span id=\"tweets\">$desc</span>" $file
+	perl -pi -e 'BEGIN { $x = shift; $y = shift; } s/$x/$y/g' -- "<span id=\"tweets_time\">.*</span>" "<span id=\"tweets_time\"><a href=\"$link\">$date</a></span>" $file
 done
