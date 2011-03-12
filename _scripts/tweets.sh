@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 rt() {
 	time=$(date -d "${1}" +%s)
@@ -33,7 +33,7 @@ rt() {
 	echo "$diff $term ago"
 }
 
-xml=$(curl -s --basic http://twitter.com/statuses/user_timeline/s5unty.rss?count=1)
+xml=$(curl -s --basic 'http://twitter.com/statuses/user_timeline/s5unty.rss?count=1')
 date=$(grep pubDate <<< "$xml" | tr -d '\t' | sed 's/^<.*>\([^<].*\)<.*>$/\1/' | sed 's/<pubDate>//' | sed 's/<\/pubDate>//' | sed 's/^ //g')
 desc=$(awk -v "tag=description" '$0 ~ tag && a++ { print; exit }' <<< "$xml" | tr -d '\t' | sed 's/^<.*>\([^<].*\)<.*>$/\1/' | sed 's/<description>//' | sed 's/<\/description>//' | sed 's/CorinCole: //' | sed 's/^ //g')
 link=$(awk -v "tag=link" '$0 ~ tag && 2 ==   a++ { print; exit }' <<< "$xml" | tr -d '\t' | sed 's/^<.*>\([^<].*\)<.*>$/\1/' | sed 's/<link>//' | sed 's/<\/link>//' | sed 's/^ //g')
