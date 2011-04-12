@@ -189,6 +189,10 @@ div#content h2 a {
   border-bottom: none;
 }
 
+div#diigo_linkroll a {
+  border-bottom: none;
+}
+
 div#menu {
   margin-top: 20px;
   padding: 0 10px 10px 0;
