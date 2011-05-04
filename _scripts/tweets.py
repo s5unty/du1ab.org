@@ -49,7 +49,9 @@ def main():
 	#print this 
 
 	data = open(html).read()
-	data = re.sub('<!-- __a_lot_of_tweets__ -->', this, data)
+	# python-2.6 的 sub 不支持 flag
+	comp = re.compile('(<!-- __tweets_begin__ -->\n).*(\n<!-- __tweets_end__ -->)', re.S)
+	data = comp.sub('\\1'+this+'\\2', data)
 	open(html, 'wb').write(data)
 
 if __name__ == "__main__":
