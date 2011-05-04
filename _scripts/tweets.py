@@ -50,8 +50,8 @@ def main():
 
 	data = open(html).read()
 	# python-2.6 的 sub 不支持 flag
-	comp = re.compile('(<!-- __tweets_begin__ -->\n).*(\n<!-- __tweets_end__ -->)', re.S)
-	data = comp.sub('\\1'+this+'\\2', data)
+	comp = re.compile('(<!-- __tweets_begin__ -->).*(<!-- __tweets_end__ -->)', re.S)
+	data = comp.sub('\\1\n'+this+'\n\\2', data)
 	open(html, 'wb').write(data)
 
 if __name__ == "__main__":
