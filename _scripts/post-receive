@@ -37,7 +37,7 @@ make
 /var/lib/gems/1.8/bin/jekyll . site
 
 # tweets 只能在首页发布后重新生成
-env -i _scripts/tweets.sh
+env -i _scripts/tweets.py
 
 # 通知远端，blog/ 发布成功
 if [ $? -eq 0 ]; then

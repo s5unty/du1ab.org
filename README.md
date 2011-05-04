@@ -3,7 +3,7 @@
 It's automatically transformed by [Jekyll](http://github.com/mojombo/jekyll)
 into a static site whenever I push this repository to GitHub.
 
-    echo "*/30 * * * * /bin/bash /sun/blog/_scripts/tweets.sh" >> /etc/crontab
+    echo "*/30 * * * * /bin/bash /sun/blog/_scripts/tweets.py" >> /etc/crontab
 
 based on [alip.github.com](https://github.com/alip/alip.github.com)
 
