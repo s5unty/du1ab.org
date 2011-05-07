@@ -14,19 +14,13 @@
   <link rel="icon" type="image/png" href="/images/favicon.png" />
   <!-- JQuery -->
   <script src="/js/jquery.js" type="text/javascript"></script>
-  <!-- jQuery Discus -->
-  <!-- http://viatropos.com/blog/jquery-disqus-plugin/ -->
-  <script src="/js/prettify-min.js" type="text/javascript"></script>
-  <script src="/js/showdown-min.js" type="text/javascript"></script>
-  <script src="/js/disqus.js" type="text/javascript"></script>
-  <script type="text/javascript" charset="utf-8">
-    jQuery(document).ready(function($) {
-      $('#disqus_thread').disqus({
-        domain: 's5unty',
-        prettify: true,
-        markdown: true
-      });
-    });
+  <!-- Discus -->
+  <script type="text/javascript">
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://s5unty.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
   </script>
   <!-- Google Webmaster -->
   <meta name="google-site-verification" content="ijaSPs7605np63v7hDtUqbriG6l7_KeKWVIRrAxeZng" />
