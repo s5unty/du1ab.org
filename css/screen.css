@@ -194,7 +194,7 @@ div#diigo_linkroll a {
 }
 
 div#menu {
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 0 10px 10px 0;
   float: left;
   width: 18%;
@@ -250,7 +250,16 @@ ul.post {
 ul.post li {
   line-height: 1.75em;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 140%;
+  font-size: 130%;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;          /* for IE */
+  -o-text-overflow: ellipsis;      /* for Opera */
+  -icab-text-overflow: ellipsis;   /* for iCab */
+  -khtml-text-overflow: ellipsis;  /* for Konqueror Safari */
+  -moz-text-overflow: ellipsis;    /* for Firefox,mozilla */
+  -webkit-text-overflow: ellipsis; /* for Safari,Swift*/
+  width:90%
 }
 
 ul.post span {
