@@ -249,7 +249,7 @@ ul.post {
 
 ul.post li {
   line-height: 1.75em;
-  font-family: Monaco, "Courier New", monospace;
+  font-family: monospace;
   font-size: 130%;
   overflow:hidden;
   white-space:nowrap;
