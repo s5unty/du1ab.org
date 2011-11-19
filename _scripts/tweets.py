@@ -10,7 +10,7 @@ import time
 import sys
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 
 default_encoding = 'utf-8'
 if sys.getdefaultencoding() != default_encoding:
@@ -19,6 +19,7 @@ if sys.getdefaultencoding() != default_encoding:
 
 def ftime(f_tick):
 	tick = datetime(*time.strptime(f_tick[:20], '%Y-%m-%dT%H:%M:%SZ')[:6])
+	tick = tick + timedelta(hours=8) # timezone +0800	
 	diff = datetime.now() - tick
 
 	if diff.days < 1:
