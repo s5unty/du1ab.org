@@ -6,7 +6,8 @@ pygments: true
 lsi: false
 
 rdiscount:
-    extensions: [smart, generate_toc]
+  extensions: [smart, generate_toc]
+  toc_token: "{:toc}"
 
 # Custom variables
 title: "Vern's Blog"

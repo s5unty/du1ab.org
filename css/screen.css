@@ -338,4 +338,8 @@ div#cloud ul .cloud-rank-8 { font-style: italic; font-size: 1.0em; }
 div#cloud ul .cloud-rank-9 { font-style: italic; font-size: 0.9em; }
 div#cloud ul .cloud-rank-10 { font-style: italic; font-size: 0.8em; }
 
+div .gist .gist-file .gist-data pre {
+  max-height: none !important;
+}
+
 /* vim: set et ts=2 sts=2 sw=2 : */
