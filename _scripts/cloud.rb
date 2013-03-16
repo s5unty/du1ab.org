@@ -34,7 +34,7 @@ end
 open(options['cloud_html'], 'w') do |f|
   f.puts "<ul>"
   for index in (0..options['cloud_size']).to_a.shuffle do
-    if sorted[index].nil?: next end
+    if sorted[index].nil? then next end
     rank = options['cloud_max_ranks'] - (Math.log(sorted[index][1].length - min_count + 1) * factor).to_i
     f.puts ' ' * 4 + "<li class='cloud-rank-#{rank}'>"
     f.puts ' ' * 8 + "<a href='/tags/\##{sanitize_tag(sorted[index][0])}'>#{sorted[index][0]}</a>"
