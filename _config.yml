@@ -1,18 +1,26 @@
-# Configuration
-# 同样实现了 markdown，区别在于 rdiscount/c 无扩展语法，maruku/ruby 带扩展语法
-markdown: rdiscount
-permalink: "/:year/:categories/:title.html"
-pygments: true
-lsi: false
-
-rdiscount:
-  extensions: [smart, generate_toc]
-  toc_token: "{:toc}"
-
-# Custom variables
 title: "Vern's Blog"
 url: http://du1abadd.org
+permalink: "/:year/:categories/:title.html"
 cloud_html: _includes/cloud.html
 cloud_size: 100
 cloud_max_ranks: 10
 tags_directory: tags
+pygments: true
+lsi: false
+
+markdown: pandoc
+pandoc:
+  extensions: [smart, standalone, toc]
+
+asciidoc: asciidoctor
+asciidoc_ext: asciidoc,adoc,ad
+asciidoctor:
+  safe: safe
+  attributes:
+    - notitle!
+    - hardbreaks
+    - coderay-css=style
+    - source-highlighter=coderay
+    - idprefix=
+    - idseparator=-
+    - linkattrs
