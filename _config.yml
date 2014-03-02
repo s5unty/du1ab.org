@@ -5,7 +5,7 @@ cloud_html: _includes/cloud.html
 cloud_size: 100
 cloud_max_ranks: 10
 tags_directory: tags
-pygments: true
+pygments: false
 lsi: false
 
 markdown: pandoc
@@ -24,3 +24,4 @@ asciidoctor:
     - idprefix=
     - idseparator=-
     - linkattrs
+    - imagesdir=/images
