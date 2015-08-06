@@ -34,7 +34,7 @@ make clean
 make
 
 # 执行发布程序
-jekyll . site
+jekyll b -d site
 
 # tweets 只能在首页发布后重新生成
 env -i _scripts/tweets.py
