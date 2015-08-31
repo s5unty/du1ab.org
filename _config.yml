@@ -9,11 +9,9 @@ excerpt_separator: ""
 highlighter: false
 lsi: false
 
-#markdown: pandoc
-#pandoc:
-#  extensions: [smart, standalone, toc]
-#
-markdown: rdiscount
+markdown:  redcarpet
+redcarpet:
+  extensions: [with_toc_data, hard_wrap, safe_links_only, footnotes, strikethrough, fenced_code_blocks]
 
 asciidoc: asciidoctor
 asciidoc_ext: asciidoc,adoc,ad
