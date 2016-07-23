@@ -9,20 +9,12 @@ excerpt_separator: ""
 highlighter: false
 lsi: false
 
-markdown:  redcarpet
-redcarpet:
-  extensions: [with_toc_data, hard_wrap, safe_links_only, footnotes, strikethrough, fenced_code_blocks]
+markdown: rdiscount
 
-asciidoc: asciidoctor
-asciidoc_ext: asciidoc,adoc,ad
-asciidoctor:
-  safe: safe
-  attributes:
-    - notitle!
-    - hardbreaks
-    - coderay-css=style
-    - source-highlighter=coderay
-    - idprefix=
-    - idseparator=-
-    - linkattrs
-    - imagesdir=/images
+asciidoc: {}
+
+gems:
+    - jekyll-pandoc
+    - jekyll-asciidoc
+#   - jekyll-tagging
+#   - jekyll-tagging-related_posts

@@ -13,10 +13,14 @@ html, body {
 }
 
 body {
-  font-family: "verdana", sans-serif;
+  font-family: "Ubuntu Mono", Monaco, "Courier New", monospace;
   font-size: 9pt;
   color: #333333;
   background: #e0e0e0;
+}
+
+span.post-meta {
+  font-family: "Ubuntu Mono", Monaco, "Courier New", monospace;
 }
 
 a,
@@ -85,6 +89,7 @@ tt {
 div#header {
   background: url("/images/header.png") repeat-x;
   border-bottom: 2px solid #000;
+  -webkit-text-size-adjust: 100%;
 }
 
 div#header a {
@@ -106,7 +111,7 @@ div#header h1 {
   color: #ffffff;
   letter-spacing: -1px;
   margin: 0px;
-  padding-left: 40px;
+  padding-left: 10px;
   padding-top: 10px;
 }
 
@@ -174,20 +179,24 @@ div#footer img {
 }
 
 div#content {
-  float: left;
-  width: 65%;
-  margin: 20px;
   padding: 5px 5px 10px 10px;
-  text-align: left;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  margin: 5px auto;
+  min-width: 28em;
+  max-width: 66em;
 }
 
-div#content h1, h2, h3, 
-div#content h1 a, h2 a, h3 a {
-  font-weight: bolder;
-  padding-top: 0.5em;
+div.subject h1 {
   border-bottom: 2px solid silver;
-  text-shadow: -0.5px 0 #black;
 }
+
+div.post h2 {
+  font-weight: bolder;
+  font-size: 17pt;
+  padding-top: 0.5em;
+}
+
 div#content h3 {
   float: left;
 }
@@ -337,18 +346,16 @@ div#cloud ul li {
   background: none;
 }
 
-div#cloud ul li a { border-bottom: none; }
-
-div#cloud ul .cloud-rank-1 { font-weight: bold; font-size: 2.4em; }
-div#cloud ul .cloud-rank-2 { font-weight: bold; font-size: 2.2em; }
-div#cloud ul .cloud-rank-3 { font-weight: bold; font-size: 2.0em; }
-div#cloud ul .cloud-rank-4 { font-size: 1.8em; }
-div#cloud ul .cloud-rank-5 { font-size: 1.6em; }
-div#cloud ul .cloud-rank-6 { font-size: 1.4em; }
-div#cloud ul .cloud-rank-7 { font-size: 1.2em; }
-div#cloud ul .cloud-rank-8 { font-style: italic; font-size: 1.0em; }
-div#cloud ul .cloud-rank-9 { font-style: italic; font-size: 0.9em; }
-div#cloud ul .cloud-rank-10 { font-style: italic; font-size: 0.8em; }
+div#htmltagcloud .cloud-rank-1 { font-weight: bold; font-size: 2.8em; }
+div#htmltagcloud .cloud-rank-2 { font-weight: bold; font-size: 2.6em; }
+div#htmltagcloud .cloud-rank-3 { font-weight: bold; font-size: 2.4em; }
+div#htmltagcloud .cloud-rank-4 { font-size: 2.2em; }
+div#htmltagcloud .cloud-rank-5 { font-size: 2.0em; }
+div#htmltagcloud .cloud-rank-6 { font-size: 1.8em; }
+div#htmltagcloud .cloud-rank-7 { font-size: 1.6em; }
+div#htmltagcloud .cloud-rank-8 { font-style: italic; font-size: 1.4em; }
+div#htmltagcloud .cloud-rank-9 { font-style: italic; font-size: 1.2em; }
+div#htmltagcloud .cloud-rank-10 { font-style: italic; font-size: 1.0em; }
 
 div .gist .gist-file .gist-data pre {
   max-height: none !important;

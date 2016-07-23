@@ -14,7 +14,9 @@ options = Jekyll.configuration({})
 options['lsi'] = false
 
 site = Jekyll::Site.new(options)
-site.read_posts('')
+#site.read_posts('')
+reader = Jekyll::Reader.new(site)
+reader.read_directories('')
 
 sorted = site.tags.sort {|a, b| b[1].length <=> a[1].length}
 factor = 1
@@ -32,14 +34,14 @@ if sorted.length < options['cloud_max_ranks']
 end
 
 open(options['cloud_html'], 'w') do |f|
-  f.puts "<ul>"
+  f.puts "<div id=\"htmltagcloud\">"
   for index in (0..options['cloud_size']).to_a.shuffle do
     if sorted[index].nil? then next end
     rank = options['cloud_max_ranks'] - (Math.log(sorted[index][1].length - min_count + 1) * factor).to_i
-    f.puts ' ' * 4 + "<li class='cloud-rank-#{rank}'>"
+    f.puts ' ' * 4 + "<span class='cloud-rank-#{rank}'>"
     f.puts ' ' * 8 + "<a href='/tags/\##{sanitize_tag(sorted[index][0])}'>#{sorted[index][0]}</a>"
     f.puts ' ' * 8 + "<!-- count: #{sorted[index][1].length} -->"
-    f.puts ' ' * 4 + '</li>'
+    f.puts ' ' * 4 + '</span>'
   end
-  f.puts '</ul>'
+  f.puts '</div>'
 end

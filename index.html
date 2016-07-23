@@ -3,19 +3,19 @@ layout: default
 title: Do You Wanna Be A DD
 ---
 
-<div id="left-column">
-  <h2><a href="http://s5unty.tumblr.com">Tumblr</a></h2>
-<!-- __tumblr_begin__ -->
-<!-- __tumblr_end__ -->
-</div>
+{% include cloud.html %}
 
-<div id="right-column">
-  <h2><a href="/archives/">Posts</a></h2>
+<div class="home">
   <ul class="post">
-    {% for post in site.posts limit:15 %}
-    <li><a href="{{ post.url }}"><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}</a></li>
+    {% for post in site.posts %}
+      <li>
+        <h4 style="display: inline;">
+          <span class="post-meta">{{ post.date | date_to_string }}</span>  &raquo;  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h4>
+      </li>
     {% endfor %}
   </ul>
 </div>
+
 
 <!-- vim: set et tw=100 ts=2 sts=2 sw=2 : -->

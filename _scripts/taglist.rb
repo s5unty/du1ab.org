@@ -15,7 +15,9 @@ options = Jekyll.configuration({})
 options['lsi'] = false
 
 site = Jekyll::Site.new(options)
-site.read_posts('')
+#site.read_posts('')
+reader = Jekyll::Reader.new(site)
+reader.read_directories('')
 
 sorted_tags = site.tags.sort {|a, b| b[1].length <=> a[1].length}
 

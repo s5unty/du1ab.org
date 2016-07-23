@@ -34,12 +34,12 @@ def ftime(f_tick):
 
 def main():
 	client = pytumblr.TumblrRestClient(
-		'<YOUR_CONSUMER_KEY>',
-		'<YOUR_CONSUMER_SECRET>',
-		'<YOUR_OAUTH_TOKEN>',
-		'<YOUR_OAUTH_SECRET>')
+			'nNtWZG5EcNlM3ky5irNRTyRpTcOHZbylQnXz6vTmLNrCmLPWos',
+			'SroCYkVqdelwC6KIttAUtQaLvUYuTlVXhkDJsxHA4mSnFhLMWN',
+			'FPmVXH2DXmXIcAInidUvAvRCePw3F3xqvt2MFf9vow8lW9JRFJ',
+			'r4tnomikmwm55xJ1HCiyInzsoW79nJLHLIsQMoH66aBMstrlO1')
 
-	feeds=client.posts('YOUR.tumblr.com', limit=5, filter='html')
+	feeds=client.posts('s5unty.tumblr.com', limit=5, filter='html')
 
 	html=""
 	body=""
