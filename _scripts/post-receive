@@ -38,7 +38,7 @@ jekyll b -d site
 
 # s/tweets/tumblr/ 只能在首页发布后重新生成
 # env -i _scripts/tweets.py
-env -i _scripts/tumblr.py
+# env -i _scripts/tumblr.py
 
 # 通知远端，blog/ 发布成功
 if [ $? -eq 0 ]; then

@@ -332,18 +332,13 @@ div#gallery ul li {
   background: none;
 }
 
-div#cloud ul {
-  margin: 0;
-  padding: 0 0 10px 0;
-  text-align: justify;
+div#htmltagcloud {
+  padding-right: 30%;
 }
 
-div#cloud ul li {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  line-height: 1.25em;
-  background: none;
+div#htmltagcloud a {
+  border-bottom: none;
+  padding: 3px 3px 3px 3px;
 }
 
 div#htmltagcloud .cloud-rank-1 { font-weight: bold; font-size: 2.8em; }

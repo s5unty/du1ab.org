@@ -11,7 +11,17 @@ lsi: false
 
 markdown: rdiscount
 
-asciidoc: {}
+asciidoctor:
+  safe: safe
+  attributes:
+    - notitle!
+    - hardbreaks
+    - coderay-css=style
+    - source-highlighter=coderay
+    - idprefix=
+    - idseparator=-
+    - linkattrs
+    - imagesdir=/images
 
 gems:
     - jekyll-pandoc
