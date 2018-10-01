@@ -73,7 +73,7 @@ params:
   baidu_analytics: ''
   baidu_verification: ''
   google_verification: ''
-  customCSS: [asciidoc.xml]
+  customCSS: [asciidoc.css]
   customJS: []
   publicCDN:
     enable: false
