@@ -1,7 +1,7 @@
 baseURL: 'http://du1abadd.org/'
 languageCode: zh
 defaultContentLanguage: zh-cn
-title: Do You Wanna Be A DD
+title: Vern's Blog
 rssLimit: 10
 enableRobotsTXT: true
 enableEmoji: true
@@ -73,7 +73,7 @@ params:
   baidu_analytics: ''
   baidu_verification: ''
   google_verification: ''
-  customCSS: []
+  customCSS: [asciidoc.xml]
   customJS: []
   publicCDN:
     enable: false
