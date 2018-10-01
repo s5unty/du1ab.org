@@ -1,0 +1,153 @@
+baseURL: 'http://du1abadd.org/'
+languageCode: zh
+defaultContentLanguage: zh-cn
+title: Do You Wanna Be A DD
+enableRobotsTXT: true
+enableEmoji: true
+theme: even
+preserveTaxonomyNames: true
+hasCJKLanguage: true
+paginate: 5
+disqusShortname: s5unty
+googleAnalytics: ''
+copyright: ''
+
+author:
+  name: Vern
+
+sitemap:
+  changefreq: weekly
+  priority: 0.5
+  filename: sitemap.xml
+
+permalinks:
+  post: '/:year/:filename'
+
+menu:
+  main:
+    - name: Archives
+      weight: 20
+      identifier: archives
+      url: /post/
+    - name: Tags
+      weight: 30
+      identifier: tags
+      url: /tags/
+    - name: Categories
+      weight: 40
+      identifier: categories
+      url: /categories/
+    - name: ☸Theravada
+      weight: 0
+      identifier: theravada
+      url: https://workflowy.com/s/ECYz.Gx5lyC71mD
+
+params:
+  since: '2006'
+  social:
+    c-twitter: 'http://twitter.com/s5unty'
+    g-github: 'http://github.com/s5unty'
+  version: 3.x
+  debug: false
+  logoTitle: Vern's Blog
+  keywords: []
+  description: Do You Wanna Be A DD
+  archivePaginate: 9999
+  showArchiveCount: false
+  dateFormatToUse: '2006.01.02'
+  moreMeta: false
+  toc: true
+  autoCollapseToc: false
+  fancybox: true
+  mathjax: false
+  mathjaxEnableSingleDollar: false
+  mathjaxEnableAutoNumber: false
+  postMetaInFooter: false
+  linkToMarkDown: false
+  contentCopyright: ''
+  changyanAppid: ''
+  changyanAppkey: ''
+  livereUID: ''
+  baidu_push: false
+  baidu_analytics: ''
+  baidu_verification: ''
+  google_verification: ''
+  customCSS: []
+  customJS: []
+  publicCDN:
+    enable: false
+    jquery: >-
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    slideout: >-
+      <script
+      src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js"
+      integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg="
+      crossorigin="anonymous"></script>
+    fancyboxJs: >-
+      <script
+      src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js"
+      integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY="
+      crossorigin="anonymous"></script>
+    fancyboxCss: >-
+      <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css"
+      integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY="
+      crossorigin="anonymous">
+    gitmentJS: >-
+      <script
+      src="https://cdn.jsdelivr.net/npm/gitment@0.0.3/dist/gitment.browser.min.js"
+      crossorigin="anonymous"></script>
+    gitmentCSS: >-
+      <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/gitment@0.0.3/style/default.min.css"
+      crossorigin="anonymous">
+    gitalkJS: >-
+      <script src="https://cdn.jsdelivr.net/npm/gitalk@1.2.2/dist/gitalk.min.js"
+      integrity="sha256-DcjhdbufsHMHflFjZtKNFnPKOAL2ybOxGcPOR4MtnJg="
+      crossorigin="anonymous"></script>
+    gitalkCSS: >-
+      <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/gitalk@1.2.2/dist/gitalk.css"
+      integrity="sha256-rJVe5uyYRXdLM+Kkoj7JtN+9qI0bZTxkYTaNWODpg7U="
+      crossorigin="anonymous">
+    timeagoJS: >-
+      <script
+      src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js"
+      integrity="sha256-jwCP0NAdCBloaIWTWHmW4i3snUNMHUNO+jr9rYd2iOI="
+      crossorigin="anonymous"></script>
+    timeagoLocalesJS: >-
+      <script
+      src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.locales.min.js"
+      integrity="sha256-ZwofwC1Lf/faQCzN7nZtfijVV6hSwxjQMwXL4gn9qU8="
+      crossorigin="anonymous"></script>
+  outdatedInfoWarning:
+    enable: false
+    hint: 30
+    warn: 180
+  gitment:
+    owner: ''
+    repo: ''
+    clientId: ''
+    clientSecret: ''
+  gitalk:
+    owner: ''
+    repo: ''
+    clientId: ''
+    clientSecret: ''
+  flowchartDiagrams:
+    enable: false
+    options: ''
+  sequenceDiagrams:
+    enable: false
+    options: ''
+  busuanzi:
+    enable: false
+    siteUV: true
+    sitePV: true
+    pagePV: true
+  reward:
+    enable: false
+    wechat: /path/to/your/wechat-qr-code.png
+    alipay: /path/to/your/alipay-qr-code.png
