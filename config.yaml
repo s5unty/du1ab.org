@@ -21,7 +21,7 @@ sitemap:
   filename: sitemap.xml
 
 permalinks:
-  post: '/:year/:filename'
+  post: '/:year/:title'
 
 menu:
   main:
