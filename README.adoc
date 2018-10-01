@@ -1,0 +1,49 @@
+== This is the data for my homepage and blog
+
+:hardbreaks:
+:ref-hugo: https://github.com/gohugoio/hugo
+:ref-even: https://github.com/olOwOlo/hugo-theme-even
+:ref-blog: http://blog.olowolo.com
+
+It's automatically transformed by {ref-hugo}[Hugo] into a static site whenever I push this repository to GitHub.
+based on {ref-even}[hugo-theme-even] (author's {ref-blog}[blog])
+
+```bash
+#!/bin/bash
+#
+# 把该脚本放在服务器 /your/blog/content/.git/hooks/ 目录，发布 blog:
+# you@somewhere$ git clone du1abadd.org:/your/blog/content blog
+# you@somewhere$ cd blog; blabla <-- 编辑 blog
+# you@somewhere$ git ci -a -m "提交 blog"
+# you@somewhere$ git push
+# ...
+# ...
+#
+
+# cd 前: /your/blog/content/.git/
+# cd 后: /your/blog/content/
+cd ..
+
+# 由于这里并非是单纯的仓库，本地会保留原始内容
+#
+#   $ git config receive.denyCurrentBranch ignore
+#
+# 依赖以上配置，否则 push 时会报错:
+#
+#    ! [remote rejected] master -> master (branch is currently checked out)
+#
+# 在远端更新上来后，这里 RESET 会取消本地保留的内容
+env -i git reset HEAD
+
+# 这里的 CHECKOUT 会同步远端更新上来的内容
+env -i git checkout .
+
+# 此时远端内容同步成功，日志也保持和远端相同
+# cd 前: /your/blog/content/
+# cd 后: /your/blog/
+cd ..
+
+# 执行发布程序
+hugo
+
+```
