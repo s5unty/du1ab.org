@@ -2,6 +2,7 @@ baseURL: 'http://du1abadd.org/'
 languageCode: zh
 defaultContentLanguage: zh-cn
 title: Do You Wanna Be A DD
+rssLimit: 10
 enableRobotsTXT: true
 enableEmoji: true
 theme: even
