@@ -118,3 +118,9 @@ div.verseblock > pre.content {
 .post .post-content blockquote {
     all: unset;
 }
+
+/* 图像 */
+.post .post-content img {
+    box-shadow: 3px 2px 10px 2px darkgrey;
+}
+
