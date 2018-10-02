@@ -122,5 +122,7 @@ div.verseblock > pre.content {
 /* 图像 */
 .post .post-content img {
     box-shadow: 3px 2px 10px 2px darkgrey;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
