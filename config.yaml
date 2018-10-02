@@ -5,7 +5,9 @@ title: Vern's Blog
 rssLimit: 10
 enableRobotsTXT: true
 enableEmoji: true
-theme: even
+theme:
+  - override
+  - even
 preserveTaxonomyNames: true
 hasCJKLanguage: true
 paginate: 5
@@ -28,19 +30,19 @@ menu:
   main:
     - name: Archives
       weight: 20
-      identifier: archives
+      identifier: cross
       url: /post/
     - name: Tags
       weight: 30
-      identifier: tags
+      identifier: star-and-crescent
       url: /tags/
     - name: Categories
       weight: 40
-      identifier: categories
+      identifier: om
       url: /categories/
-    - name: ☸Theravada
-      weight: 0
-      identifier: theravada
+    - name: Theravada
+      weight: 50
+      identifier: dharmachakra
       url: https://workflowy.com/s/ECYz.Gx5lyC71mD
 
 params:
@@ -57,7 +59,7 @@ params:
   showArchiveCount: false
   dateFormatToUse: '2006.01.02'
   moreMeta: false
-  toc: true
+  toc: false
   autoCollapseToc: false
   fancybox: true
   mathjax: false
@@ -73,10 +75,15 @@ params:
   baidu_analytics: ''
   baidu_verification: ''
   google_verification: ''
-  customCSS: [asciidoc.css]
+  customCSS: [asciidoctor.css]
   customJS: []
   publicCDN:
     enable: false
+    fontawesome: >-
+      <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous">
     jquery: >-
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -145,9 +152,9 @@ params:
     options: ''
   busuanzi:
     enable: false
-    siteUV: true
-    sitePV: true
-    pagePV: true
+    siteUV: false
+    sitePV: false
+    pagePV: false
   reward:
     enable: false
     wechat: /path/to/your/wechat-qr-code.png
