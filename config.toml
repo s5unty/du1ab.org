@@ -1,0 +1,54 @@
+baseurl = "http://du1ab.one/"
+title = "Wuans's Blog"
+copyright = "Copyleft 🄯 2006-2021"
+canonifyurls = true
+theme = "kiera"
+
+paginate = 5
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+#disqusShortname = "myShortName"
+
+# Note: to disable a social network icon delete or comment out the corresponding line
+[author]
+    name = "wuan"
+    github = "s5unty"
+    wechat = "s5unty"
+
+[params]
+    tagline = "拉出去就地正法久住"
+    #description = ""
+    #images = [""] #This is used for opengraph/twitter cards.
+    customCSS = []  #Optional Customised CSS
+    favicon = "images/favicon.ico"
+    utterancesRepo = "s5unty/du1ab.one"
+    utterancesIssueTerm = "og:title"
+    utterancesTheme = "boxy-light"
+    homepageLength = 5
+    commentAutoload = true  #This mean reader don't need click, disqus comment autoload
+    #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
+    #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
+    #google_fonts = ["Staatliches"] # Adds additional google fonts
+    #disableDarkModeCSS = false # disables css style for users using dark-mode
+
+# uncomment to enable the Tags link on the main toolbar
+   [[menu.main]]
+     identifier = "categories"
+     name = "Categories"
+     url = "/categories"
+     weight = 1
+
+   [[menu.main]]
+     identifier = "tags"
+     name = "Tags"
+     url = "/tags"
+     weight = 2
+
+   [[menu.main]]
+     identifier = "theravada"
+     name = "Theravada"
+     url = "https://www.notion.so/s5unty/3305c2f6ac824ba78df2dd6c278e1c8a"
+     weight = 3
