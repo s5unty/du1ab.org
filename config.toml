@@ -1,54 +1,58 @@
-baseurl = "http://du1ab.one/"
-title = "Wuans's Blog"
-copyright = "Copyleft 🄯 2006-2021"
-canonifyurls = true
-theme = "kiera"
-
+baseurl = "https://du1ab.one/"
+languageCode = "zh-cn"
+title = "Wuan's Blog"
+theme = "ezhil"
 paginate = 5
+copyright = "Copyleft 🄯 2006-2021"
 
+disqusShortname = "s5unty"
 summaryLength = 30
 enableEmoji = true
-pygmentsCodeFences = true
 
-#disqusShortname = "myShortName"
-
-# Note: to disable a social network icon delete or comment out the corresponding line
-[author]
-    name = "wuan"
-    github = "s5unty"
-    wechat = "s5unty"
+[markup]
+  [markup.highlight]
+    # 内置的 chroma 高亮，对 asciidoc 支持不好
+    # 明确禁用，避免和 highlight.js 重复高亮
+    codeFences = false
 
 [params]
-    tagline = "拉出去就地正法久住"
-    #description = ""
-    #images = [""] #This is used for opengraph/twitter cards.
-    customCSS = []  #Optional Customised CSS
-    favicon = "images/favicon.ico"
-    utterancesRepo = "s5unty/du1ab.one"
-    utterancesIssueTerm = "og:title"
-    utterancesTheme = "boxy-light"
-    homepageLength = 5
-    commentAutoload = true  #This mean reader don't need click, disqus comment autoload
-    #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
-    #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
-    #google_fonts = ["Staatliches"] # Adds additional google fonts
-    #disableDarkModeCSS = false # disables css style for users using dark-mode
+	subtitle = "拉出去就地正法久住"
+	disableDisqusTypes = ["page"]
+	featherIconsCDN = true
+	mode = "auto" # "dark", "auto", "light"
+ 	customCSS = ["css/fonts.css", "css/github.min.css"]  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	customJS = ["js/highlight.min.js"]  # Custom JS scripts.
 
-# uncomment to enable the Tags link on the main toolbar
-   [[menu.main]]
-     identifier = "categories"
-     name = "Categories"
-     url = "/categories"
-     weight = 1
+[[menu.main]]
+name = "Root"
+url = "/"
+weight = 1
 
-   [[menu.main]]
-     identifier = "tags"
-     name = "Tags"
-     url = "/tags"
-     weight = 2
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
 
-   [[menu.main]]
-     identifier = "theravada"
-     name = "Theravada"
-     url = "https://www.notion.so/s5unty/3305c2f6ac824ba78df2dd6c278e1c8a"
-     weight = 3
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/s5unty"
+
+[[params.social]]
+name = "Theravada"
+icon = "settings"
+url = "https://www.notion.so/s5unty/3305c2f6ac824ba78df2dd6c278e1c8a"
+
+[taxonomies]
+   tag = "tags"

@@ -2,17 +2,17 @@
 
 :hardbreaks:
 :ref-hugo: https://github.com/gohugoio/hugo
-:ref-kiera: https://github.com/funkydan2/hugo-kiera
+:ref-ezhil: https://github.com/vividvilla/ezhil
 :ref-blog: http://blog.olowolo.com
 
 It's automatically transformed by {ref-hugo}[Hugo] into a static site whenever I push this repository to GitHub.
-based on {ref-kiera}[hugo-kiera]
+based on {ref-ezhil}[hugo-theme-ezhil]
 
 ```bash
 #!/bin/bash
 #
 # 把该脚本放在服务器 /your/blog/content/.git/hooks/ 目录，发布 blog:
-# you@somewhere$ git clone du1ab.one:/your/blog/content blog
+# you@somewhere$ git clone du1abadd.org:/your/blog/content blog
 # you@somewhere$ cd blog; blabla <-- 编辑 blog
 # you@somewhere$ git ci -a -m "提交 blog"
 # you@somewhere$ git push
