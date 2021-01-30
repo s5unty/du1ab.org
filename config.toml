@@ -3,11 +3,13 @@ languageCode = "zh-cn"
 title = "Wuan's Blog"
 theme = "ezhil"
 paginate = 5
+summaryLength = 10
 copyright = "Copyleft 🄯 2006-2021"
-
 disqusShortname = "s5unty"
-summaryLength = 30
 enableEmoji = true
+
+[permalinks]
+posts = "/:year/:title/"
 
 [markup]
   [markup.highlight]
@@ -16,13 +18,13 @@ enableEmoji = true
     codeFences = false
 
 [params]
-	subtitle = "拉出去就地正法久住"
-	disableDisqusTypes = ["page"]
-	featherIconsCDN = true
-	mode = "auto" # "dark", "auto", "light"
- 	customCSS = ["css/fonts.css", "css/github.min.css"]  # Custom CSS applied to default styles.
-	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
-	customJS = ["js/highlight.min.js"]  # Custom JS scripts.
+subtitle = "拉出去就地正法久住"
+disableDisqusTypes = ["page"]
+featherIconsCDN = true
+mode = "auto" # "dark", "auto", "light"
+customCSS = ["css/fonts.css", "css/github.min.css"]  # Custom CSS applied to default styles.
+# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+customJS = ["js/highlight.min.js"]  # Custom JS scripts.
 
 [[menu.main]]
 name = "Root"
@@ -55,4 +57,5 @@ icon = "settings"
 url = "https://www.notion.so/s5unty/3305c2f6ac824ba78df2dd6c278e1c8a"
 
 [taxonomies]
-   tag = "tags"
+tag = "tags"
+
