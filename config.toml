@@ -16,9 +16,28 @@ posts = "/:year/:title/"
     # 内置的 chroma 高亮，对 asciidoc 支持不好
     # 明确禁用，避免和 highlight.js 重复高亮
     codeFences = false
+  [markup.asciidocExt.attributes]
+    hardbreaks = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = false
+      xhtml = false
 
 [params]
-subtitle = "拉出去就地正法久住"
+subtitle = "就地正法久住"
 disableDisqusTypes = ["page"]
 featherIconsCDN = true
 mode = "auto" # "dark", "auto", "light"
@@ -54,7 +73,7 @@ url = "https://github.com/s5unty"
 [[params.social]]
 name = "Theravada"
 icon = "settings"
-url = "https://www.notion.so/s5unty/3305c2f6ac824ba78df2dd6c278e1c8a"
+url = "https://www.remnote.io/a/60f6b397fd7c910034210b93"
 
 [taxonomies]
 tag = "tags"
