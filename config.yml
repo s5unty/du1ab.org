@@ -1,0 +1,245 @@
+baseURL: "https://du1ab.one/"
+title: Wuan's Blog
+paginate: 5
+theme: papermod
+defaultContentLanguage: 'cn'
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+googleAnalytics: UA-17307682-1
+
+permalinks:
+  "posts": "/:year/:title/"
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
+# 只导出最近10条
+services:
+  rss:
+    limit: 10
+
+languages:
+  # 日常综合
+  cn:
+    languageName: ":cn:"
+    languageAltTitle: "MaDe in China by humans"
+    title: Wuan's Blog
+    weight: 1
+    menu:
+      main:
+      - name: Archive
+        url: archive/
+        weight: 5
+      - name: Keyword
+        url: keyword/
+        weight: 5
+      - name: Tags
+        url: tags/
+        weight: 10
+      - name: RSS
+        url: index.xml
+        weight: 20
+
+  # 佛法实践
+  ff:
+    languageName: ":earth_asia:"
+    languageAltTitle: "Made on Earth by humans"
+    weight: 2
+    menu:
+      main:
+      - name: Archive
+        url: archive/
+        weight: 5
+      - name: Keyword
+        url: keyword/
+        weight: 5
+      - name: Tags
+        url: tags/
+        weight: 10
+      - name: RSS
+        url: index.xml
+        weight: 20
+    title: Wuan's Blog
+    homeInfoParams:
+      Title: "Do you wanna be the one"
+      Content: >
+        我不确定此世有无轮回，有无因果业报。但若它们存在，我死后肯定会出生在美好世界中。
+
+        我不确定此世有无轮回，有无因果业报。即使没有，我仍然在死后可以为自己和家人博得美德。
+
+        若恶人有恶报，那么我不对任何人怀有恶意，不造恶业，我将来肯定不会遇到不幸。
+
+        若恶人没有恶报，那么至少我能做到无愧于他人。
+
+        —— 出于[《卡拉玛经》](https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%8B%89%E7%8E%9B%E7%BB%8F)
+
+  # 个人简介
+  me:
+    languageName: ":penguin:"
+    languageAltTitle: "About me"
+    weight: 3
+    title: Wuan's Blog
+    profileMode:
+      enabled: true
+      title: ABOUT
+      subtitle: "| M | E |"
+      # imageUrl: "#"
+      # imageTitle: my image
+      # imageWidth: 120
+      # imageHeight: 120
+      buttons:
+      - name: 世间法
+        url: ../
+      - name: 出世间法
+        url: ../ff
+    # 交换链接
+    socialIcons:
+    - name: twitter
+      url: "https://twitter.com/s5unty"
+    - name: github
+      url: "https://github.com/s5unty"
+    - name: telegram
+      url: "https://telegram.me/s5unty"
+
+params:
+  # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
+  description: "Do you wanna be the one"
+  author: wuan
+  # author: ["Me", "You"] # multiple authors
+  # 默认色系(亮色/暗色)
+  defaultTheme: auto
+  # 禁用色系切换
+  disableThemeToggle: false
+  # 不显示时间和标签等信息
+  hidemeta: false
+  # 篇末是否显示分享按钮
+  ShowShareButtons: false
+  # 是否提示阅读所需时间(中文不准)
+  ShowReadingTime: false
+  # 将首篇格式化为homeInfo(仅当homeInfo为空时)，是否禁用该功能
+  disableSpecial1stPost: true
+  # 是否显示语境的全名(实际是经过 emojify 美化的符号)
+  displayFullLangName: true
+  # 篇末是否显示前后一篇的导航
+  ShowPostNavLinks: false
+  # 页头是否显示面包屑(breadcrumbs)导航
+  ShowBreadCrumbs: false
+  # 代码区块是否显示复制按钮
+  ShowCodeCopyButtons: true
+  # RSS导出的是全文(true)还是摘要(false)
+  ShowFullTextinRSS: true
+  # 篇头是否显示篇幅的目录大纲
+  ShowToc: true
+  # 页末是否启用留言功能
+  comments: true
+  # RSS导出和Tiwtter卡片，会用到的图片
+  # images: ["papermod-cover.png"]
+
+  # 首页开启profile模式(类似于简历模式)
+  profileMode:
+    enabled: false
+
+  # 提请编辑本篇博客的跳转链接(类似于pull request)
+  editPost:
+    URL: "https://github.com/s5unty/du1ab.one/tree/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # 站点的标识和图片(页面左上方)
+  label:
+      text: ""
+      icon: favicon_32x32.png
+      iconHeight: 32
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+
+  # 一些会用到的图片变量(static/)
+  assets:
+    disableHLJS: true
+    favicon: "https://du1ab.one/images/favicon.ico"
+    favicon16x16: "favicon_16x16.png"
+    favicon32x32: "favicon_32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+  # safari_pinned_tab: "<link / abs url>"
+
+
+  # 封面图片
+  # cover:
+  #   hidden: true # hide everywhere but not in structured data
+  #   hiddenInList: true # hide on list pages and home
+  #   hiddenInSingle: true # hide on single page
+
+  # 搜索功能的参数
+  fuseOpts:
+    isCaseSensitive: false
+    minMatchCharLength: 1
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.3
+    keys: ["title", "permalink", "summary", "content"]
+
+# 分类学
+# https://gohugo.io/content-management/taxonomies/
+taxonomies:
+    dir: dirs
+    tag: tags
+
+# 语法标记
+markup:
+  # 启用内置高亮，必须同时禁用(disableHLJS: true)
+  highlight:
+    # lineNos: true
+    # noClasses: false
+    codeFences: true
+    guessSyntax: true
+    style: friendly
+
+  # 内置的 Markdown 解释器(goldmark)
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    renderer:
+      hardWraps: true
+      unsafe: true
+
+# 数据隐私
+# https://gohugo.io/about/hugo-and-gdpr/
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
