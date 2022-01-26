@@ -1,6 +1,6 @@
 [![CI](https://github.com/s5unty/du1ab.one/actions/workflows/hugo.yml/badge.svg)](https://github.com/s5unty/du1ab.one/actions/workflows/hugo.yml)
 
-# This is the data for my blog
+# This is the data of my blog
 
 - [github action][runner]
 - [Hugo][ref-hugo]
