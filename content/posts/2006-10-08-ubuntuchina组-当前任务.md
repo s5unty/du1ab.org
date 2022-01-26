@@ -1,0 +1,15 @@
+---
+categories:
+- var
+date: "2006-10-08T00:00:00Z"
+tags: []
+title: ubuntuchina组 当前任务
+---
+
+UbuntuChina组  (2006-03-13 07:47:36由<a href="http://wiki.ubuntu.org.cn/FireHare"><span title="FireHare @ 218.75.16.107[218.75.16.107]"><a title="FireHare @ 218.75.16.107[218.75.16.107]">FireHare</a></span></a>编辑)
+
+<ol type="1"> <li>建立一个 FAQ 的快速搜索数据库，使用户可以在最短时间内找到问题的答案，而不再需要花时间翻看长篇的文档。 <span class="anchor" id="line-18"></span></li><li>由 于中国用户普遍对汇报 Bug 的过程不熟悉，英语水平也不平均，他们会更多地在论坛中提交问题。我们就建立一套论坛 Bug 跟踪机制，搜集用户散发在论坛中的 Bug 信息，由专人负责检查、分类、翻译。把那些属于用户操作问题的错误归类到中文 FAQ 检索中，而把确实可能是 Bug 的问题翻译后提交给官方。 <span class="anchor" id="line-19"></span></li><li>目 前已经加强了现有服务器的配置，可以提供软件镜像。但是由于中国网络是以长江为界，北方是中国网通掌管网络宽带线路，而南方是由中国电信掌握网络线路，双 方的线路却因为商业竞争而相对隔离。这就导致了 Ubuntu 的中文网站在北方用户访问时速度较慢。目前的主机都在大陆以外地区，导致大陆地区的用户访问延迟比较严重。这样的网络条件也不利于以后的需求扩展。我们也 希望官方可以提供一台合适的服务器来建设我们网站的主体。我们会尽量挑选南北两地之间最合适的地方托管主机。 <span class="anchor" id="line-20"></span></li><li>将 Hiweed-Debian 项目的开发力量合并到 Ubuntu 中文组。此举必将把 Ubuntu 在 Linux 中文社区的知名度提高到一个新的层次！从而为以后的商业定制运作打好Canonical 公司的运作模式进行团队改建。加强合作关系，澄清责任制度，更合理地管理和利用时间、资金、人力、硬件等资源。同时加强对中国媒体间的交流和与政府，企 业、组织机构之间的关系。在技术实施上则学习 Ubuntu 德国分支机构的经验和模式，使我们成为 Ubuntu 在亚太地区最强的技术力量。 <span class="anchor" id="line-21"></span></li><li><p class="line862">首先解决中文字体的问题。在 Dapper 发布前，确保以 uming、ukai 字体作为中文的核心字体。完成 Ubuntu ，Kubuntu 的中文相关测试工作。同时帮助  <a class="http" href="http://wenq.org/">WenQuanYi</a> 组织加快字体开发进度，力争在 Dapper 发布前提供WQY字体，并充分协调好 WQY 与 uming、ukai 字体互为补充关系。 <span class="anchor" id="line-22"></span>
+
+</li><li><p class="line862">为 Ubuntu 中文组获得官方正式的授权认可。为主要成员获得  <a class="mailto" href="mailto:name@ubuntu.com">name@ubuntu.com</a> 的官方邮箱。获得正式的商标、logo 使用权，获得使用 Ubuntu 官方组织名义进行宣传、商务活动的许可。 <span class="anchor" id="line-23"></span>
+
+</li><li>充分测试 Dapper 的开发版本，争取在 Dapper正式发布前解决掉发现的所有问题。  <span class="anchor" id="line-24"></span></li><li>筹 备6.04 Dapper 版本的产品发布会。预定时间为2006年4月22日，周六晚，地点在上海。邀请 Ubuntu 官方成员出席，邀请国内外知名媒体访问，邀请国际企业在华机构出席，邀请各大开源组织参与，邀请高等院校代表出席，邀请中科院技术研究所，邀请政府机构。 "这一部分，我们将提供专门的方案" <span class="anchor" id="line-25"></span></li><li>为 Dapper 的技术支持做好准备，为今后 Dapper 的 OEM 产业化做准备。 <span class="anchor" id="line-26"></span></li><li>建立亚太地区 Shiping 中心，帮助生产和发送光盘。帮助建立 Ubuntu 亚太地区开发中心和技术支持中心。

@@ -73,13 +73,10 @@ languages:
     title: Wuan's Blog
     homeInfoParams:
       Title: "Do you wanna be the one"
-      Content: >
+      Content: |
         我不确定此世有无轮回，有无因果业报。但若它们存在，我死后肯定会出生在美好世界中。
-
         我不确定此世有无轮回，有无因果业报。即使没有，我仍然在死后可以为自己和家人博得美德。
-
         若恶人有恶报，那么我不对任何人怀有恶意，不造恶业，我将来肯定不会遇到不幸。
-
         若恶人没有恶报，那么至少我能做到无愧于他人。
 
         —— 出于[《卡拉玛经》](https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%8B%89%E7%8E%9B%E7%BB%8F)
