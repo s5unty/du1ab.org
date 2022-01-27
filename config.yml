@@ -159,7 +159,7 @@ params:
   # 站点的标识和图片(页面左上方)
   label:
       text: ""
-      icon: favicon_32x32.png
+      icon: "/favicon_32x32.png"
       iconHeight: 32
 
   # analytics:
@@ -169,18 +169,17 @@ params:
   # 一些会用到的图片变量(static/)
   assets:
     disableHLJS: true
-    favicon: "https://du1ab.one/images/favicon.ico"
-    favicon16x16: "favicon_16x16.png"
-    favicon32x32: "favicon_32x32.png"
-    apple_touch_icon: "apple-touch-icon.png"
-  # safari_pinned_tab: "<link / abs url>"
-
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon_16x16.png"
+    favicon32x32: "/favicon_32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/apple-touch-icon.png"
 
   # 封面图片
-  # cover:
-  #   hidden: true # hide everywhere but not in structured data
-  #   hiddenInList: true # hide on list pages and home
-  #   hiddenInSingle: true # hide on single page
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # 搜索功能的参数
   fuseOpts:
