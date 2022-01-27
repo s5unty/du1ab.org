@@ -38,39 +38,39 @@ languages:
     weight: 1
     menu:
       main:
-      - name: Archive
-        url: archive/
-        weight: 5
-      - name: Keyword
-        url: keyword/
-        weight: 5
-      - name: Tags
-        url: tags/
-        weight: 10
-      - name: RSS
+      - name: 订阅
+        title: Subscribe
         url: index.xml
-        weight: 20
+        weight: 1
+      - name: 浏览
+        title: Tags
+        url: tags/
+        weight: 2
+      - name: 搜索
+        title: Search
+        url: search/
+        weight: 3
 
   # 佛法实践
   ff:
     languageName: ":earth_asia:"
     languageAltTitle: "Made on Earth by humans"
+    title: Wuan's Blog
     weight: 2
     menu:
       main:
-      - name: Archive
-        url: archive/
-        weight: 5
-      - name: Keyword
-        url: keyword/
-        weight: 5
-      - name: Tags
-        url: tags/
-        weight: 10
-      - name: RSS
+      - name: 订阅
+        title: Subscribe
         url: index.xml
-        weight: 20
-    title: Wuan's Blog
+        weight: 1
+      - name: 浏览
+        title: Tags
+        url: tags/
+        weight: 2
+      - name: 搜索
+        title: Search
+        url: search/
+        weight: 3
     homeInfoParams:
       Title: "Do you wanna be the one"
       Content: |
@@ -85,16 +85,16 @@ languages:
   me:
     languageName: ":penguin:"
     languageAltTitle: "About me"
-    weight: 3
     title: Wuan's Blog
+    weight: 3
     profileMode:
       enabled: true
       title: ABOUT
       subtitle: "| M | E |"
-      # imageUrl: "#"
+      imageUrl: "placeholder.jpg"
       # imageTitle: my image
-      # imageWidth: 120
-      # imageHeight: 120
+      imageWidth: 500
+      imageHeight: 498
       buttons:
       - name: 世间法
         url: ../
@@ -108,6 +108,8 @@ languages:
       url: "https://github.com/s5unty"
     - name: telegram
       url: "https://telegram.me/s5unty"
+    - name: email
+      url: "mailto:s5unty@gmail.com"
 
 params:
   # to enable google analytics, opengraph, twitter-cards and schema.
@@ -193,8 +195,7 @@ params:
 # 分类学
 # https://gohugo.io/content-management/taxonomies/
 taxonomies:
-    dir: dirs
-    tag: tags
+  tag: tags
 
 # 语法标记
 markup:
