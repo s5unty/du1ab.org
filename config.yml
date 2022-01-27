@@ -91,10 +91,10 @@ languages:
       enabled: true
       title: ABOUT
       subtitle: "| M | E |"
-      imageUrl: "placeholder.jpg"
+      # imageUrl: "placeholder.jpg"
       # imageTitle: my image
-      imageWidth: 500
-      imageHeight: 498
+      # imageWidth: 500
+      # imageHeight: 498
       buttons:
       - name: 世间法
         url: ../
