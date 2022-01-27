@@ -11,7 +11,7 @@
     {{- $bc_pg := $.Site.GetPage ($scratch.Get "path") -}}
 
     {{- if (and ($bc_pg) (gt (len . ) 0))}}
-    {{ ":round_pushpin:" | emojify  }}<a href="{{ $bc_pg.Permalink }}">{{ $bc_pg.Name }}</a>
+    ❭<a href="{{ $bc_pg.Permalink }}">{{ $bc_pg.Name }}</a>
     {{- end }}
 
     {{- end -}}
