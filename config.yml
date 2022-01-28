@@ -178,7 +178,7 @@ params:
   # 封面图片
   cover:
     hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
+    hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
   # 搜索功能的参数
