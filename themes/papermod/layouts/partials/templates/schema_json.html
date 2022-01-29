@@ -6,7 +6,7 @@
   "name": {{ .Site.Title }},
   "url": {{ .Site.BaseURL }},
   "description": {{ .Site.Params.description | plainify | truncate 180 | safeHTML }},
-  "thumbnailUrl": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }},
+  "thumbnailUrl": {{ replace (.Site.Params.assets.favicon | default "favicon.ico" | absURL) "www" "cdn" 1 }},
   "sameAs": [
     {{- if .Site.Params.schema.sameAs }}
       {{ range $i, $e := .Site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ trim $e " " }}{{ end }}
@@ -76,9 +76,9 @@
   {{ if .Params.cover.image -}}
   "image":
     {{- if (ne .Params.cover.relative true) -}}
-    {{ .Params.cover.image | absURL }},
+    {{ replace (.Params.cover.image | absURL) "www" "cdn" 1 }},
     {{- else -}}
-    {{ (path.Join .RelPermalink .Params.cover.image ) | absURL }},
+    {{ replace ((path.Join .RelPermalink .Params.cover.image ) | absURL) "www" "cdn" 1 }},
     {{- end}}
   {{- end -}}
   "datePublished": {{ .PublishDate }},
@@ -109,7 +109,7 @@
     "name": {{ .Site.Title }},
     "logo": {
       "@type": "ImageObject",
-      "url": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }}
+      "url": {{ replace (.Site.Params.assets.favicon | default "favicon.ico" | absURL) "www" "cdn" 1 }}
     }
   }
 }
