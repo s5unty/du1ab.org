@@ -3,6 +3,8 @@ title: Wuan's Blog
 paginate: 5
 theme: papermod
 defaultContentLanguage: 'cn'
+summaryLength: 140
+hasCJKLanguage: true
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
