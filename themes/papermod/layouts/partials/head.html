@@ -75,10 +75,10 @@
 {{- $fusejs := resources.Get "js/fuse.js" }}
 {{- if not .Site.Params.assets.disableFingerprinting }}
 {{- $search := (slice $fusejs $fastsearch ) | resources.Concat "assets/js/search.js" | minify | fingerprint }}
-<script defer crossorigin="anonymous" src="{{ $search.RelPermalink }}" integrity="{{ $search.Data.Integrity }}"></script>
+<script defer crossorigin="anonymous" src="{{ replace ($search.RelPermalink | absURL) "www" "cdn" 1 }}" integrity="{{ $search.Data.Integrity }}"></script>
 {{- else }}
 {{- $search := (slice $fusejs $fastsearch ) | resources.Concat "assets/js/search.js" | minify }}
-<script defer crossorigin="anonymous" src="{{ $search.RelPermalink }}"></script>
+<script defer crossorigin="anonymous" src="{{ replace ($search.RelPermalink | absURL) "www" "cdn" 1 }}"></script>
 {{- end }}
 {{- end -}}
 
@@ -87,11 +87,11 @@
 {{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (not $isHLJSdisabled)) }}
 {{- if not .Site.Params.assets.disableFingerprinting }}
 {{- $highlight := slice (resources.Get "js/highlight.min.js") | resources.Concat "assets/js/highlight.js" | minify | fingerprint }}
-<script defer crossorigin="anonymous" src="{{ $highlight.RelPermalink }}" integrity="{{ $highlight.Data.Integrity }}"
+<script defer crossorigin="anonymous" src="{{ replace ($highlight.RelPermalink | absURL) "www" "cdn" 1 }}" integrity="{{ $highlight.Data.Integrity }}"
     onload="hljs.initHighlightingOnLoad();"></script>
 {{- else }}
 {{- $highlight := slice (resources.Get "js/highlight.min.js") | resources.Concat "assets/js/highlight.js" | minify }}
-<script defer crossorigin="anonymous" src="{{ $highlight.RelPermalink }}" onload="hljs.initHighlightingOnLoad();"></script>
+<script defer crossorigin="anonymous" src="{{ replace ($highlight.RelPermalink | absURL) "www" "cdn" 1 }}" onload="hljs.initHighlightingOnLoad();"></script>
 {{- end }}
 {{- end }}
 
