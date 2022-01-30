@@ -79,8 +79,18 @@
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
         }
-    })
 
+        function sendMessage(message) {
+            const iframe = document.querySelector('iframe.giscus-frame');
+            if (!iframe) return;
+            iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+            setConfig: {
+              theme: localStorage.getItem("pref-theme")
+            }
+        });
+    })
 </script>
 {{- end }}
 
