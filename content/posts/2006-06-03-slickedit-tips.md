@@ -1,5 +1,4 @@
 ---
-dirs: usr
 date: "2006-06-03T00:00:00Z"
 tags:
 - hack

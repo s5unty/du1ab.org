@@ -6,10 +6,12 @@ tags: []
 title: Glib::Cond::timed_wait
 ---
 
-申明一个Glib::TimeVal timeout变量
-然后
-while(yourcond) {
-&nbsp; timeout.assign_current_time();
-&nbsp; timeout.add_seconds(2);&nbsp; // 2 seconds
-&nbsp; ...timed_wait(*obj, timeout);
+申明一个Glib::TimeVal timeout变量，然后
+
+```cpp
+while (yourcond) {
+    timeout.assign_current_time();
+    timeout.add_seconds(2);     // 2 seconds
+    ...timed_wait(*obj, timeout);
 }
+```

@@ -5,10 +5,10 @@ date: "2006-09-19T00:00:00Z"
 tags: []
 title: dynamic dns server
 ---
+发现 [dnsexit](http://www.dnsexit.com) 比花生壳更方便，因为他的域名动态解析服务是免费的。
+在网站上注册过用户后，可以下载客户端定期刷新，下面是安装配置过程
 
-发现<a href="http://www.dnsexit.com/">dnsexit</a>比花生壳更方便，因为他的域名动态解析服务是免费的。
-<span style="text-decoration: underline;"></span>在网站上注册过用户后，可以下载客户端定期刷新，下面是安装配置过程
-
+```
 [/sun/backup/]sudo dpkg -i ipUpdate-1.5.deb
 选中了曾被取消选择的软件包 ipupdate。 
 (正在读取数据库 ... 系统当前总共安装有 89764 个文件和目录。)
@@ -77,3 +77,5 @@ Log file: /var/log/dnsexit.log
 Cache file: /tmp/dnsexit-ip.txt
 
  Don't forget to read README.txt file in doc directory!
+
+```
