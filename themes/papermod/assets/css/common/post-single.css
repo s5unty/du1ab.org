@@ -109,7 +109,6 @@
 .post-content dl {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
 }
 
 .post-content dt {
