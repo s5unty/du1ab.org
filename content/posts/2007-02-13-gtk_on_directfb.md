@@ -8,13 +8,13 @@ title: GTK_on_DirectFB
 
 参照这里的指导：<http://directfb.org/wiki/index.php/Projects:GTK_on_DirectFB>
 
-1. apt源中没有libdirectfb-0.9-25
+1. apt 源中没有 libdirectfb-0.9-25
 
         apt-get install libglib2.0-0 libglib2.0-dev libatk1.0-0 libatk1.0-dev libpango1.0-0 libpango1.0-dev libdirectfb-dev
 
-    后来我下载并编译DirectFB-1.0.0-rc4，在编译时我的经验是把prefix指定为/usr目录，否则会引起当前编译版本和系统自带版本的冲突，导致运行的DirectFB测试程序总是死机。
+    后来我下载并编译 DirectFB-1.0.0-rc4，在编译时我的经验是把 prefix 指定为/usr 目录，否则会引起当前编译版本和系统自带版本的冲突，导致运行的 DirectFB 测试程序总是死机。
 
-2. 为了调试DirectFB程序方便，为DirectFB-1.0.0-rc4安装sdl支持
+2. 为了调试 DirectFB 程序方便，为 DirectFB-1.0.0-rc4 安装 sdl 支持
 
         sudo apt-get install libsdl1.2-dev
 
@@ -138,11 +138,11 @@ title: GTK_on_DirectFB
 
         1$ vi ~/.directfbrc
         -- 8< ------
-        # 用sdl作为测试
+        # 用 sdl 作为测试
         system=sdl
         -- 8< ------
         2$ sudo /usr/gtkdfb/bin/gtk-demo
 
-    高兴的话，可以把GIMP也移植成DirectFB
+    高兴的话，可以把 GIMP 也移植成 DirectFB
 
 ![](http://bp2.blogger.com/_oKL9t7fM3TU/RdF-iVxG6SI/AAAAAAAAACc/YsZudHk3vxE/s400/dfbterm.png)

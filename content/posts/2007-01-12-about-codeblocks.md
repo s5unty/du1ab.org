@@ -8,7 +8,7 @@ title: About Code::Blocks
 
 ## About us
 The Code::Blocks team
-<a href="http://www.codeblocks.org/about.shtml">http://www.codeblocks.org/about.shtml</a>
+<http://www.codeblocks.org/about.shtml>
 
 ## Project Leader
 

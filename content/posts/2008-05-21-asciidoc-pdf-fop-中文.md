@@ -22,11 +22,11 @@ title: "asciidoc pdf fop ä¸­æ\x96\x87"
 
 经过配置，以上 4 步可由一个命令完成。
 
-### 安装工具
+## 安装工具
 
     % sudo apt-get install asciidoc fop xsltproc sun-java5-jre source-highlight docbook-xsl libxext6
 
-### 简单配置
+## 简单配置
 自行修改 /etc/asciidoc/docbook-xsl/fo.xsl 以便支持中文，这里之列出差异
 ```diff
 diff --git a/docbook-xsl/fo.xsl b/docbook-xsl/fo.xsl
@@ -47,19 +47,23 @@ left</xsl:param>
 ```
 
 添加源代码高亮支持
+
     % sudo cp /usr/share/doc/asciidoc/examples/so*/so*.conf /etc/asciidoc/filters/
 
 准备 fop 可识别的字体配置文件
 拷贝 simsun.ttf 和 simhei.ttf，这里假设拷贝到 /sun/backup/fonts 目录
+
     % export FONTDIR=/sun/backup/fonts/
     % cp simsun.ttf simhei.ttf $FONTDIR
 
 在工作目录下创建字体模板，建议直接在用户家目录下创建
+
     % cd
     % fop-ttfreader -ttcname "simsun" $FONTDIR/simsun.ttf ~/.fop.simsun
     % fop-ttfreader -ttcname "simhei" $FONTDIR/simhei.ttf ~/.fop.simhei
 
 在工作目录下创建字体配置文件，建议直接在用户家目录下创建
+
     % vi ~/.fop.conf
 
 ```xml
@@ -89,7 +93,7 @@ left</xsl:param>
 
 ```
 
-### Warning
+## Warning
 上面 metrics-file 和 embed-file 随后的路径必须是绝对路径 (在这里 ~/ 不被认为是 绝对路径)。我的用户家目录是 /sun/home，你的可能是 /home/YOUR。请自行更正。
 
 自行编辑 /usr/bin/a2x 脚本简化 PDF 生成步骤，这里只列出差异
@@ -109,6 +113,7 @@ index 5ea63cb..77e7176 100755
  function to_text()
 ```
 
-### 测试试用
+## 测试试用
 [下载](http://people.openrays.org/%7Es5unty/contrib/asciidoc2pdf/index.txt) 本页的 asciidoc 代码，生成 PDF 文档:
+
     % a2x -f pdf index.txt

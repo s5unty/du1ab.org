@@ -2,8 +2,8 @@
 categories:
 - var
 date: "2007-03-06T00:00:00Z"
-tags: []
-title: 'II /usr/lib/libgdk-x11-2.0.so.0: undefined symbol: cairo_xlib_surface_create'
+tags:
+title: ii undefined symbol cairo_xlib_surface_create
 ---
 
 第二次遇到这样的错误：

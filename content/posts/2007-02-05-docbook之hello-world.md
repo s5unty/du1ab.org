@@ -8,11 +8,11 @@ title: DocBook之Hello World
 
 FROM: <http://workaround.org/moin/DocBook>
 
-xsltproc
-  ~ XSL Transformations Processor
+- xsltproc
+  XSL Transformations Processor
 
-docbook-xsl
-  ~ stylesheets for HTML, XHTML, HTML Help and others
+- docbook-xsl
+  stylesheets for HTML, XHTML, HTML Help and others
 
 首先安装这两个工具
 
@@ -20,7 +20,7 @@ docbook-xsl
 
 把以下内容存入一个名为test.xml的文件
 
-~~~xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE article
     PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
@@ -34,7 +34,7 @@ docbook-xsl
      </para>
   </sect1>
 </article>
-~~~
+```
 
 执行以下命令，并用浏览器打开test.html。
 

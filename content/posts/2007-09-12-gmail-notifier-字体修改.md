@@ -6,7 +6,7 @@ tags: []
 title: gmail notifier 字体修改
 ---
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/173">Gmail Notifier</a> 身为一款 Firefox 插件(addon)，提供了多帐号来信提醒功能，特别得是包括 Google Apps 帐号。
+[Gmail Notifier](https://addons.mozilla.org/en-US/firefox/addon/173) 身为一款 Firefox 插件(addon)，提供了多帐号来信提醒功能，特别得是包括 Google Apps 帐号。
 
 美中不足的是当鼠标悬停在右下角的 Gmail 图标上时，信息框中的字体偏小，显示的中文字体模糊不清。解决办法如下：
 

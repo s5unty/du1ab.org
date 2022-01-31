@@ -6,9 +6,10 @@ tags: []
 title: 解决fcitx在ubuntu下的两个问题
 ---
 
-按照ubuntu官方wiki教你用simsun美化的教程后，出现了候选字显示为方框的问题：
-发现是由/etc/fonts/language-selector.conf这个文件引起的，还原这个文件就解决了fcitx的问题；但是还原后达不到美化的目的，参考<a href="http://s5unty.blogspot.com/2006/12/ubuntusimsun.html">这篇</a>。注意备份
+按照 ubuntu 官方 wiki 教你用 simsun 美化的教程后，出现了候选字显示为方框的问题：
+发现是由 `/etc/fonts/language-selector.conf` 这个文件引起的，还原这个文件就解决了 fcitx 的问题；但是还原后达不到美化的目的，[这篇](参考http://s5unty.blogspot.com/2006/12/ubuntusimsun.html)。注意备份
 
-安装fcitx后无法在qt程序中(如psi, bouml)启用的问题 
-不要设置这个环境变量QT_IM_MODULE，用export -n QT_IM_MODULE修复即可。因为我们用的是fcitx。如果是用SCIM就刚好相反，必须要设置QT_IM_MODULE。
+安装 fcitx 后无法在 qt 程序中(如 psi, bouml)启用的问题
+不要设置这个环境变量 QT_IM_MODULE，用 export -n QT_IM_MODULE 修复即可。
+因为我们用的是 fcitx。如果是用 SCIM 就刚好相反，必须要设置 QT_IM_MODULE。
 

@@ -6,4 +6,4 @@ tags: []
 title: ubuntu安装simsun字体
 ---
 
-<a href="http://wiki.ubuntu.org.cn/%E4%BD%BF%E7%94%A8XP%E5%AD%97%E4%BD%93%E7%BE%8E%E5%8C%96%E6%B1%89%E5%AD%97">see </a>
+[see](http://wiki.ubuntu.org.cn/%E4%BD%BF%E7%94%A8XP%E5%AD%97%E4%BD%93%E7%BE%8E%E5%8C%96%E6%B1%89%E5%AD%97)

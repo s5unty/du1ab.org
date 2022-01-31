@@ -12,7 +12,7 @@ For completeness heres a copy of the routine I used to create windows with a bac
   
 You probably need to customise it a little, Im working on an embedded device that supports only 640x480. 
  
-~~~c
+```c
 GtkWidget *SetupWindow(gchar *data,gboolean Transient) {
 GdkPixmap *background;
 GdkPixbuf *pixbuf;
@@ -53,4 +53,4 @@ gtk_window_set_transient_for(GTK_WINDOW (window),GTK_WINDOW(mainwindow));
 gtk_widget_show (window);
 return(window);
 }
-~~~
+```

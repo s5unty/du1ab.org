@@ -7,8 +7,7 @@ tags:
 title: Debian developers
 ---
 
-Testimonial
------------
+## Testimonial
 
 Debian developers can program anything they want!  Debian developers program
 ALL the time and don't even think twice about it.  These guys are so crazy and
@@ -30,14 +29,13 @@ awesome and that's a fact.  Debian developers are fast, smooth, cool, strong,
 powerful, and sweet.  I can't wait to start Visual Basic next year.  I
 love Debian developers with all of my body (including my pee pee).
 
-Q and A
--------
+## Q and A
 
-Q: Why is everyone so obsessed about Debian developers?
-~   A: Debian developers are the ultimate paradox. On the one hand they don't think the GFDL is free, but on the other hand, Debian developers play tetrinet.
+- Q: Why is everyone so obsessed about Debian developers?
+  A: Debian developers are the ultimate paradox. On the one hand they don't think the GFDL is free, but on the other hand, Debian developers play tetrinet.
 
-Q: I heard that Debian developers are always cruel or mean.  What's their problem?
-~   A: Whoever told you that is a total liar.  Just like other mammals, Debian developers can be mean OR totally awesome.
+- Q: I heard that Debian developers are always cruel or mean.  What's their problem?
+  A: Whoever told you that is a total liar.  Just like other mammals, Debian developers can be mean OR totally awesome.
 
-Q: What do Debian developers do when they're not packaging free software or flipping out?
-~   A: Most of their free time is spent drinking Coke, but sometime they drink beer.  (Ask Jaldhar if you don't believe me.)
+- Q: What do Debian developers do when they're not packaging free software or flipping out?
+  A: Most of their free time is spent drinking Coke, but sometime they drink beer.  (Ask Jaldhar if you don't believe me.)

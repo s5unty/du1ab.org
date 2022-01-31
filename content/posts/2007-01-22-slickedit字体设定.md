@@ -6,9 +6,9 @@ tags: []
 title: slickedit字体设定
 ---
 
-还是换回了SlickEdit10，11的crash问题没法解决。
+还是换回了 SlickEdit10，11 的 crash 问题没法解决。
 
-修改/opt/slickedit/unicode/fontsets.ini，添加以下内容：
+修改 /opt/slickedit/unicode/fontsets.ini，添加以下内容：
 
     [simsun]
     ptSize = 14
@@ -20,6 +20,6 @@ title: slickedit字体设定
     font = -*-simsun-medium-r-normal--14-0-0-0-p-0-iso10646-1:0x3000-0x33ff:0x4e00-0xffff
     font = -*-simsun-medium-r-normal--14-0-0-0-p-0-iso10646-1 
 
-设定SlickEdit的Unicode Source Windows字体为：
+设定 SlickEdit 的 Unicode Source Windows 字体为：
 
     VSE Unicode-simsun

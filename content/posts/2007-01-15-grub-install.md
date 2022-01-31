@@ -6,7 +6,7 @@ tags: []
 title: grub install
 ---
 
-sudo grub
+    $ sudo grub
     grub> find /boot/grub/stage1
      (hdx,y)
     grub> root (hdx,y)

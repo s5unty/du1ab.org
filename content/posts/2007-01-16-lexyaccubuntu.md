@@ -8,8 +8,8 @@ title: lex&yacc@ubuntu
 
 FROM: <http://www.linuxquestions.org/questions/showthread.php?t=363351>
 
-| I just found the solution.
-| you have to use flex instead of lex
-| and bison instead of yacc.
-| 
-| the package names are flex and bison
+> I just found the solution.
+> you have to use flex instead of lex
+> and bison instead of yacc.
+> 
+> the package names are flex and bison
