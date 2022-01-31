@@ -218,6 +218,12 @@ markup:
       table: true
       taskList: true
       typographer: true
+    parser:
+      autoHeadingID: true
+      autoHeadingIDType: github
+      attribute:
+        block: false
+        title: true
     renderer:
       hardWraps: true
       unsafe: true
