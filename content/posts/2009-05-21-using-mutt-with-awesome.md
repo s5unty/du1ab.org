@@ -20,20 +20,20 @@ RT @<http://awesome.naquadah.org/wiki/index.php?title=Irssi_tips>
 
 - awesome 配置项 bg_urgent (默认存在)
 
-    bg_urgent = #ff0000
+      bg_urgent = #ff0000
 
 - urxvt 配置项 urgentOnBell
 
-    ilmf.s5unty% cat ~/.Xresources | grep Bell
-    URxvt.urgentOnBell:  True
+      ilmf.s5unty% cat ~/.Xresources | grep Bell
+      URxvt.urgentOnBell:  True
  
 - mutt 配置项 beep_new, check_new, timeout
 
-    ilmf.s5unty% cat ~/.mutt/muttrc | grep -E "new|timeout"
-    set beep_new=yes
-    set check_new=yes #默认存在
-    set timeout=600 #默认存在
+      ilmf.s5unty% cat ~/.mutt/muttrc | grep -E "new|timeout"
+      set beep_new=yes
+      set check_new=yes #默认存在
+      set timeout=600 #默认存在
 
 上述配置项有些是默认存在的，确保它们没有被删除就好。提醒: 
 
-* 修改过 ~/.Xresources 之后记得运行 xrdb ~/.Xresources，并且要重新打开一个终端运行 mutt 测试。
+修改过 ~/.Xresources 之后记得运行 xrdb ~/.Xresources，并且要重新打开一个终端运行 mutt 测试。

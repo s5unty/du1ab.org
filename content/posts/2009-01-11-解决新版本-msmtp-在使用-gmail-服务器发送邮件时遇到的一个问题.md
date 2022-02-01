@@ -12,4 +12,4 @@ title: 解决新版本 msmtp 在使用 gmail 服务器发送邮件时遇到的�
 
 如果在使用 msmtp 发送邮件时遇到 TLS 的问题，最简单的解决办法是在 msmtprc 文件中
 添加一行：
-``@tls_certcheck off@``
+`@tls_certcheck off@`

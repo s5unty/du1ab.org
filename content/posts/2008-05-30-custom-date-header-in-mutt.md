@@ -8,8 +8,10 @@ tags:
 title: custom date header in mutt
 ---
 
-origin: ``Date: Tue, 31 Oct 2006 20:24:16 -0600 (CST)``
-custom: ``X-LDate: Wed, 2006-11-01 10:24 +0800 | Tue, 20:24 -0600``
+origin
+: `Date: Tue, 31 Oct 2006 20:24:16 -0600 (CST)`
+custom
+: `X-LDate: Wed, 2006-11-01 10:24 +0800 | Tue, 20:24 -0600`
 
 Insert the code below into ~/.procmailrc
 
