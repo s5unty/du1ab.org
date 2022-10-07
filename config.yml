@@ -98,9 +98,9 @@ languages:
       # imageWidth: 500
       # imageHeight: 498
       buttons:
-      - name: 世间法
-        url: ../
-      - name: 出世间法
+      - name: 计算机
+        url: ../it
+      - name: 八正道
         url: ../ff
     # 交换链接
     socialIcons:
