@@ -1,6 +1,8 @@
 ---
+categories:
+- media
 date: "2010-07-25T00:00:00Z"
-tags: b/编程/4/j
+tags: []
 title: 格式漂亮的 autogen.sh 脚本
 ---
 

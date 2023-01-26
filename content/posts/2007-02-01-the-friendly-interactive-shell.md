@@ -1,6 +1,9 @@
 ---
+categories:
+- var
 date: "2007-02-01T00:00:00Z"
-tags: b/脚本/2/a
+tags:
+- shell
 title: The friendly interactive shell
 ---
 

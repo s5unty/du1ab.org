@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2009-02-11T00:00:00Z"
-tags: b/浏览器/2/b
+tags: []
 title: Iceweasel 安装 Java 插件
 ---
 

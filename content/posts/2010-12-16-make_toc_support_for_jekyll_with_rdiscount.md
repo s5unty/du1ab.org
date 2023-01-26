@@ -1,6 +1,12 @@
 ---
+categories:
+- usr
 date: "2010-12-16T00:00:00Z"
-tags: b/文档/3/a
+tags:
+- hack
+- jekyll
+- rdiscount
+- markdown
 title: make toc support for jekyll with rdiscount
 ---
 

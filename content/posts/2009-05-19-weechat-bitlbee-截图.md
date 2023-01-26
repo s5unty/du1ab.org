@@ -1,6 +1,11 @@
 ---
+categories:
+- bin
 date: "2009-05-19T00:00:00Z"
-tags: b/聊天/2
+tags:
+- weechat
+- bitlbee
+- im
 title: weechat + bitlbee 截图
 ---
 

@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2006-12-12T00:00:00Z"
-tags: b/操作系统/3/b, b/输入法/1
+tags: []
 title: 解决fcitx在ubuntu下的两个问题
 ---
 

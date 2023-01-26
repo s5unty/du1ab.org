@@ -1,6 +1,9 @@
 ---
+categories:
+- var
 date: "2007-03-05T00:00:00Z"
-tags: b/编辑器/2/c
+tags:
+- vim
 title: mlterm && vim && black && bold
 ---
 

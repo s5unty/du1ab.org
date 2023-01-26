@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2006-12-10T00:00:00Z"
-tags: b/操作系统/3
+tags: []
 title: 找到一个ubuntu edgy源
 ---
 

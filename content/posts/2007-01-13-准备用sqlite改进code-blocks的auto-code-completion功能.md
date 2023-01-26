@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-01-13T00:00:00Z"
-tags: b/编辑器/4/c
+tags: []
 title: 准备用sqlite改进code blocks的auto code completion功能
 ---
 

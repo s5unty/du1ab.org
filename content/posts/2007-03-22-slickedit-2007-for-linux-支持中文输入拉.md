@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-03-22T00:00:00Z"
-tags: b/编辑器/1/j
+tags: []
 title: slickedit 2007 for linux 支持中文输入拉
 ---
 

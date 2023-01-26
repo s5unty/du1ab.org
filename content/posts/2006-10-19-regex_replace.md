@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2006-10-19T00:00:00Z"
-tags: b/脚本/4/c, b/编程/4/l
+tags: []
 title: regex_replace
 ---
 

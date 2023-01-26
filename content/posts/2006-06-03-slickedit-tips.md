@@ -1,6 +1,7 @@
 ---
 date: "2006-06-03T00:00:00Z"
-tags: b/编辑器/1/a
+tags:
+- hack
 title: Slickedit tips
 ---
 

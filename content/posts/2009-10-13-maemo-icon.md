@@ -1,6 +1,9 @@
 ---
+categories:
+- var
 date: "2009-10-13T00:00:00Z"
-tags: b/编程/3/e
+tags:
+- maemo
 title: Maemo icon
 ---
 

@@ -1,6 +1,9 @@
 ---
+categories:
+- var
 date: "2008-05-15T00:00:00Z"
-tags: b/编程/5/a
+tags:
+- perl
 title: Perl One Liners
 ---
 

@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2006-10-13T00:00:00Z"
-tags: b/编程/4
+tags: []
 title: boost::format
 ---
 

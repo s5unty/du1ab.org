@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2006-10-08T00:00:00Z"
-tags: b/字体/1
+tags: []
 title: ubuntu安装simsun字体
 ---
 

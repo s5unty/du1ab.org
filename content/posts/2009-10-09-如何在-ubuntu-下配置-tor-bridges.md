@@ -1,6 +1,10 @@
 ---
+categories:
+- bin
 date: "2009-10-09T00:00:00Z"
-tags: b/网络/3/b
+tags:
+- tor
+- gfw
 title: 如何在 Ubuntu 下配置 TOR Bridges
 ---
 

@@ -1,6 +1,9 @@
 ---
+categories:
+- dev
 date: "2010-12-15T00:00:00Z"
-tags: b/编程/6/d
+tags:
+- git
 title: 公司 vp10-android.git 仓库使用建议
 ---
 

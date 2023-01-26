@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2008-02-29T00:00:00Z"
-tags: b/政经/5/b
+tags: []
 title: They just give up
 ---
 FROM: http://www.bullogger.com/blogs/drunkpiano/archives/123651.aspx

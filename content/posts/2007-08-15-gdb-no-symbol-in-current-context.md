@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-08-15T00:00:00Z"
-tags: b/编程/4/i
+tags: []
 title: 'GDB: No symbol in current context.'
 ---
 

@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-01-22T00:00:00Z"
-tags: b/字体/4, b/编辑器/1/g
+tags: []
 title: slickedit字体设定
 ---
 

@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2006-12-18T00:00:00Z"
-tags: b/操作系统/2, b/操作系统/3/c
+tags: []
 title: debian与ubuntu相异软件包的列表
 ---
 

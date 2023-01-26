@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-01-11T00:00:00Z"
-tags: b/编辑器/4/a
+tags: []
 title: Code Blocks
 ---
 

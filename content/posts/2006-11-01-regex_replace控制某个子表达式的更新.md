@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2006-11-01T00:00:00Z"
-tags: b/脚本/4/d, b/编程/4/o
+tags: []
 title: regex_replace控制某个子表达式的更新
 ---
 

@@ -1,7 +1,11 @@
 ---
+categories:
+- bin
 date: "2008-05-21T00:00:00Z"
-tags: b/文档/2/b
-title: "asciidoc pdf fop 中文"
+tags:
+- hack
+- asciidoc
+title: "asciidoc pdf fop ä¸­æ\x96\x87"
 ---
 
 通过 fop，将由 Asciidoc 生成的 Docbook 文件转换成 Pdf 文档。支持中文(必须是 ttf 字体)。

@@ -1,6 +1,10 @@
 ---
+categories:
+- media
 date: "2010-07-06T00:00:00Z"
-tags: b/谷歌/7
+tags:
+- google
+- 图
 title: 图解Google搜索工作原理
 ---
 

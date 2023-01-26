@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-02-05T00:00:00Z"
-tags: b/文档/1/a
+tags: []
 title: DocBook之Hello World
 ---
 

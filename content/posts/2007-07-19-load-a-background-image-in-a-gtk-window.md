@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-07-19T00:00:00Z"
-tags: b/编程/3/c
+tags: []
 title: Load a background image in a Gtk Window
 ---
 

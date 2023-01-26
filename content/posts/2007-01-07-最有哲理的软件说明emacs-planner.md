@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-01-07T00:00:00Z"
-tags: b/编辑器/3/a
+tags: []
 title: 最有哲理的软件说明emacs planner
 ---
 

@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-08-16T00:00:00Z"
-tags: b/脚本/1/c, b/信息安全/2
+tags: [shell, umask]
 title: shellrc 中 umask 的含义
 ---
 

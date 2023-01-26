@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-01-02T00:00:00Z"
-tags: b/编辑器/1/e
+tags: []
 title: SlickEdit 11.0.2 Full Version On Ubuntu
 ---
 

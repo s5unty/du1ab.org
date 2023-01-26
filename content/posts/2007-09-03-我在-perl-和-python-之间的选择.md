@@ -1,6 +1,11 @@
 ---
+categories:
+- var
 date: "2007-09-03T00:00:00Z"
-tags: b/编程/5, b/脚本/3/a
+tags:
+- perl
+- python
+- ruby
 title: 我在 perl 和 python 之间的选择
 ---
 

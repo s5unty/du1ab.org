@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2008-07-10T00:00:00Z"
-tags: b/故事/4/a
+tags: []
 title: SR-71 Blackbird
 ---
 

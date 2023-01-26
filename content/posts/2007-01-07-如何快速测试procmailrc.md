@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-01-07T00:00:00Z"
-tags: b/邮件/2
+tags: []
 title: 如何快速测试procmailrc
 ---
 

@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2006-09-28T00:00:00Z"
-tags: b/编辑器/1/c
+tags: []
 title: slickedit自动扩展
 ---
 

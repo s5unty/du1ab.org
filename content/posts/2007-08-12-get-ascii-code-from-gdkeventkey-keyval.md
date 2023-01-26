@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-08-12T00:00:00Z"
-tags: b/编程/4/c
+tags: []
 title: Get ascii code from GdkEventKey-Keyval
 ---
 

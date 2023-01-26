@@ -1,6 +1,12 @@
 ---
+categories:
+- usr
 date: "2009-05-21T00:00:00Z"
-tags: b/操作系统/9/c
+tags:
+- mutt
+- awesome
+- urxvt
+- hack
 title: Using Mutt with Awesome
 ---
 

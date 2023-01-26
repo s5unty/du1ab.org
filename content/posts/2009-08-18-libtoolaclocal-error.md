@@ -1,6 +1,8 @@
 ---
+categories:
+- dev
 date: "2009-08-18T00:00:00Z"
-tags: b/编程/4/f
+tags: []
 title: libtool/aclocal error
 ---
 

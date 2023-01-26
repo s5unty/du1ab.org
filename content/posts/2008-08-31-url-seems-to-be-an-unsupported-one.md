@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2008-08-31T00:00:00Z"
-tags: b/编辑器/5
+tags: []
 title: URL seems to be an unsupported one.
 ---
 

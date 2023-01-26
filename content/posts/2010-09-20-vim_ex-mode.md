@@ -1,6 +1,9 @@
 ---
+categories:
+- dev
 date: "2010-09-20T00:00:00Z"
-tags: b/编辑器/2/j
+tags:
+- vim
 title: 在脚本中使用 Vim Script [批]处理文件
 ---
 

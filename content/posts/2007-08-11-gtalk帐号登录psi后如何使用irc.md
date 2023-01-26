@@ -1,6 +1,8 @@
 ---
+categories:
+- var
 date: "2007-08-11T00:00:00Z"
-tags: b/聊天/1
+tags: []
 title: gtalk帐号登录psi后如何使用irc
 ---
 
