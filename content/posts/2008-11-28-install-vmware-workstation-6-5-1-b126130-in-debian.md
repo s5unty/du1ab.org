@@ -1,9 +1,6 @@
 ---
-categories:
-- bin
 date: "2008-11-28T00:00:00Z"
-tags:
-- vm
+tags: b/虚拟化
 title: Install VMWare Workstation 6.5.1-b126130 IN Debian
 ---
 

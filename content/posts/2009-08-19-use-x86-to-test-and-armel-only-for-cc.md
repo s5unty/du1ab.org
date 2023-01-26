@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2009-08-19T00:00:00Z"
-tags: []
+tags: b/编程/4/h
 title: use x86 to test and armel only for cc
 ---
 

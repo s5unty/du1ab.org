@@ -1,8 +1,6 @@
 ---
-categories:
-- usr
 date: "2010-01-10T00:00:00Z"
-tags: []
+tags: b/编程/8
 title: 'java.net.SocketException: Network is unreachable'
 ---
 

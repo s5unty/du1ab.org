@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2006-12-21T00:00:00Z"
-tags: []
+tags: b/谷歌/4
 title: 知道为什么firefox右上角那个搜索器不能直接用google了
 ---
 

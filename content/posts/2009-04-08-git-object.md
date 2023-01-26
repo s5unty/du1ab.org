@@ -1,9 +1,6 @@
 ---
-categories:
-- bin
 date: "2009-04-08T00:00:00Z"
-tags:
-- git
+tags: b/编程/6/b
 title: git object
 ---
 

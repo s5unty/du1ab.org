@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2009-02-02T00:00:00Z"
-tags:
-- flash
+tags: b/浏览器/2
 title: Iceweasel - 安装 Flash 插件
 ---
 

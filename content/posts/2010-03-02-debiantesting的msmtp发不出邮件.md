@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2010-03-02T00:00:00Z"
-tags:
-- debian
+tags: b/邮件/4/b
 title: debian/testing 的 msmtp 发不出邮件
 ---
 

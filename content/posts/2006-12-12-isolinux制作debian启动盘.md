@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2006-12-12T00:00:00Z"
-tags: []
+tags: b/操作系统/2/c
 title: isolinux制作debian启动盘
 ---
 

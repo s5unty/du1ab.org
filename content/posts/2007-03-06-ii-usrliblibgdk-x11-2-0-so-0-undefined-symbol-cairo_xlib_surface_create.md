@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-03-06T00:00:00Z"
-tags:
+tags: b/编程/3/b
 title: ii undefined symbol cairo_xlib_surface_create
 ---
 

@@ -1,8 +1,6 @@
 ---
-categories:
-- dev
 date: "2007-04-26T00:00:00Z"
-tags: [gnupg]
+tags: b/信息安全/1
 title: debian下gnu pgp签名创建和认证过程
 ---
 

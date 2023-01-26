@@ -1,10 +1,6 @@
 ---
-categories:
-- media
 date: "2010-07-19T00:00:00Z"
-tags:
-- japan
-- cartoon
+tags: b/影视/2
 title: 《猫屎一号》(cat shit one)
 ---
 

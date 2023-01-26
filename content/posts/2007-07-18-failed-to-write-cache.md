@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-07-18T00:00:00Z"
-tags: []
+tags: b/字体/5
 title: failed to write cache
 ---
 

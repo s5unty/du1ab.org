@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-01-22T00:00:00Z"
-tags: []
+tags: b/字体/3
 title: serif和sans serif之间的区别
 ---
 

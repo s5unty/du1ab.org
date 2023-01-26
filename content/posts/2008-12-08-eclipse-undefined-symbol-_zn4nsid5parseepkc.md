@@ -1,10 +1,6 @@
 ---
-categories:
-- bin
 date: "2008-12-08T00:00:00Z"
-tags:
-- java
-- eclipse
+tags: b/编辑器/6
 title: 'eclipse: undefined symbol: _ZN4nsID5ParseEPKc'
 ---
 

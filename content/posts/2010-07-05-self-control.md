@@ -1,9 +1,6 @@
 ---
-categories:
-- lib
 date: "2010-07-05T00:00:00Z"
-tags:
-- 言
+tags: b/言论/3
 title: 自制力
 ---
 

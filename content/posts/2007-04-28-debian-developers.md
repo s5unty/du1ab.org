@@ -1,9 +1,6 @@
 ---
-categories:
-- sys
 date: "2007-04-28T00:00:00Z"
-tags:
-- debian
+tags: b/操作系统/2/e
 title: Debian developers
 ---
 

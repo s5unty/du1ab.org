@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-04-18T00:00:00Z"
-tags: []
+tags: b/社区/3
 title: In Memoriam
 ---
 

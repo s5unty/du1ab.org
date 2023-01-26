@@ -1,10 +1,6 @@
 ---
-categories:
-- bin
 date: "2010-05-17T00:00:00Z"
-tags:
-- hack
-- urxvt
+tags: b/命令行/7
 title: RT urxvt mouseless url yanking
 ---
 

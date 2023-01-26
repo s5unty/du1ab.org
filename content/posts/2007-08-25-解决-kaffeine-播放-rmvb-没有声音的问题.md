@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-08-25T00:00:00Z"
-tags: []
+tags: b/操作系统/4/d
 title: 解决 kaffeine 播放 rmvb 没有声音的问题
 ---
 

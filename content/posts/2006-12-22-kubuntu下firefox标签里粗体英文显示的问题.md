@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2006-12-22T00:00:00Z"
-tags: []
+tags: b/操作系统/4/a, b/浏览器/1
 title: kubuntu下firefox标签里粗体英文显示的问题 moTpl67popg=
 ---
 

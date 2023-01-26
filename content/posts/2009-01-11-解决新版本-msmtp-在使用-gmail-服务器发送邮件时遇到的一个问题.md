@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2009-01-11T00:00:00Z"
-tags:
-- msmtp
+tags: b/邮件/4/b
 title: 解决新版本 msmtp 在使用 gmail 服务器发送邮件时遇到的一个问题
 ---
 

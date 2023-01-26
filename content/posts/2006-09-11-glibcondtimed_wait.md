@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2006-09-11T00:00:00Z"
-tags: []
+tags: b/编程/3/g
 title: Glib::Cond::timed_wait
 ---
 

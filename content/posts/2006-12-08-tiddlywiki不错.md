@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2006-12-08T00:00:00Z"
-tags: []
+tags: b/文档/4
 title: tiddlywiki不错
 ---
 

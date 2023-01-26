@@ -1,10 +1,6 @@
 ---
-categories:
-- var
 date: "2009-04-27T00:00:00Z"
-tags:
-- 键盘
-- hack
+tags: b/操作系统/1/c
 title: Razer Lycosa
 ---
 

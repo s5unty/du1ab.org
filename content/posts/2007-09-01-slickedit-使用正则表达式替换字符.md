@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-09-01T00:00:00Z"
-tags: []
+tags: b/编辑器/1/l
 title: slickedit 使用正则表达式替换字符
 ---
 

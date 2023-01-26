@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-01-18T00:00:00Z"
-tags: []
+tags: b/编辑器/1/f
 title: Register SlickEdit
 ---
 

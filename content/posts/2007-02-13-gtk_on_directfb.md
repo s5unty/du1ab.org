@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-02-13T00:00:00Z"
-tags: []
+tags: b/编程/3
 title: GTK_on_DirectFB
 ---
 

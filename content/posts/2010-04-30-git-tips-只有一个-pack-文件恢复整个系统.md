@@ -1,8 +1,6 @@
 ---
-categories:
-- bin
 date: "2010-04-30T00:00:00Z"
-tags:
+tags: b/编程/6/c
 - git
 title: git tips 只有一个 pack 文件恢复整个系统
 ---

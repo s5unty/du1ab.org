@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2006-09-19T00:00:00Z"
-tags: []
+tags: b/网络/6
 title: dynamic dns server
 ---
 发现 [dnsexit](http://www.dnsexit.com) 比花生壳更方便，因为他的域名动态解析服务是免费的。
