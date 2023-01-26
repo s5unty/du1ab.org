@@ -1,6 +1,6 @@
 ---
 date: "2007-01-16T00:00:00Z"
-tags: b/操作系统/3, b/编程/2/a
+tags: [b/操作系统/3, b/编程/2/a]
 title: lex&yacc@ubuntu
 ---
 
