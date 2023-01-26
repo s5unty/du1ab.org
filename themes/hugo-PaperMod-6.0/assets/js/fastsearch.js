@@ -48,7 +48,7 @@ window.onload = function () {
             }
         }
     };
-    xhr.open('GET', "../index.json");
+    xhr.open('GET', "https://cdn.du1ab.one" + window.location.pathname + "../index.json");
     xhr.send();
 }
 

@@ -145,6 +145,8 @@ params:
   ShowToc: true
   # 页末是否启用留言功能
   comments: true
+  # 日期显示格式
+  DateFormat: "2006-01-02"
   # RSS导出和Tiwtter卡片，会用到的图片
   # images: ["papermod-cover.png"]
 
