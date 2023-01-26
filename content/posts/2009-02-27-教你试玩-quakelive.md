@@ -1,9 +1,6 @@
 ---
-categories:
-- media
 date: "2009-02-27T00:00:00Z"
-tags:
-- quake3
+tags: b/游戏/4
 title: 教你试玩 QuakeLive
 ---
 

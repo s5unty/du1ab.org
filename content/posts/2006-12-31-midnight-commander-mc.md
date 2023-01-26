@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2006-12-31T00:00:00Z"
-tags: []
+tags: b/命令行/1
 title: Midnight Commander (MC)
 ---
 

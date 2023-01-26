@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2010-03-16T00:00:00Z"
-tags:
-- hack
+tags: b/主机/2/a
 title: 驱动 ThinkPad X200 无线网卡 Debian/squeeze
 ---
 

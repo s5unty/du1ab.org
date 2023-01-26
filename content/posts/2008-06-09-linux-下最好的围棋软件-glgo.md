@@ -1,9 +1,6 @@
 ---
-categories:
-- bin
 date: "2008-06-09T00:00:00Z"
-tags:
-- go
+tags: b/游戏/3
 title: linux 下最好的围棋软件 glgo
 ---
 

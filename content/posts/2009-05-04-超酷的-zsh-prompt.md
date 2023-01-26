@@ -1,10 +1,6 @@
 ---
-categories:
-- bin
 date: "2009-05-04T00:00:00Z"
-tags:
-- shell
-- zsh
+tags: b/命令行/4/g
 title: 超酷的 zsh-prompt
 ---
 

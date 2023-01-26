@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2006-12-18T00:00:00Z"
-tags: []
+tags: b/编程/4/q
 title: 解决一个pkg config的问题
 ---
 

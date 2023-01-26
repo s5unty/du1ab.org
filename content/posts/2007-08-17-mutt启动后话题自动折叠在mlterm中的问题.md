@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2007-08-17T00:00:00Z"
-tags:
-- mutt
+tags: b/邮件/1/b
 title: mutt启动后话题自动折叠在mlterm中的问题
 ---
 

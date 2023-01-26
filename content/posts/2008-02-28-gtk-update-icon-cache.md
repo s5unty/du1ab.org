@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2008-02-28T00:00:00Z"
-tags: []
+tags: b/编程/3/d
 title: gtk-update-icon-cache
 ---
 

@@ -1,10 +1,6 @@
 ---
-categories:
-- bin
 date: "2010-12-21T00:00:00Z"
-tags:
-- mutt
-- google
+tags: b/邮件/1/f, b/谷歌/9
 title: 在 Mutt 中使用 Google 联系人
 ---
 

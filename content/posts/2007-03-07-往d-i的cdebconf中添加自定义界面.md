@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2007-03-07T00:00:00Z"
-tags:
-- debian
+tags: b/操作系统/7
 title: 往d-i的cdebconf中添加自定义界面
 ---
 

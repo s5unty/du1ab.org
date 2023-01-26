@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-08-07T00:00:00Z"
-tags: []
+tags: b/编辑器/1/k
 title: SlickEdit Tips
 ---
 

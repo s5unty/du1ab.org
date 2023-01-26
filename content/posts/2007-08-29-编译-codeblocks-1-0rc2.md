@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-08-29T00:00:00Z"
-tags: []
+tags: b/编程/4/e
 title: "编译CodeBlocks 1.0RC2"
 ---
 

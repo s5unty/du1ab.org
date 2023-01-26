@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2006-12-10T00:00:00Z"
-tags: []
+tags: b/操作系统/1/f
 title: How to customize splash.rle
 ---
 

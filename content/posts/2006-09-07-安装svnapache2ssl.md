@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2006-09-07T00:00:00Z"
-tags: [svn, apache]
+tags: b/编程/6/e
 title: "安装svn&apache2&ssl"
 ---
 

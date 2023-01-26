@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-09-14T00:00:00Z"
-tags: []
+tags: b/邮件/3/a
 title: mailbox vs maildir
 ---
 

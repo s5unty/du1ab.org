@@ -1,9 +1,6 @@
 ---
-categories:
-- media
 date: "2010-09-02T00:00:00Z"
-tags:
-- 图
+tags: b/游戏/6
 title: 经常要做的一些活塞运动
 ---
 

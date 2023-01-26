@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2006-09-14T00:00:00Z"
-tags: []
+tags: b/编程/1/c
 title: Java, Mono, or C++?
 ---
 

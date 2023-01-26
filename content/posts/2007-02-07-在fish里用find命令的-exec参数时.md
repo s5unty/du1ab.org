@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-02-07T00:00:00Z"
-tags: []
+tags: b/脚本/2/b
 title: 在fish里用find命令的 exec参数时
 ---
 

@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-03-06T00:00:00Z"
-tags: []
+tags: b/操作系统/6
 title: video=vesa:option[,options]
 ---
 

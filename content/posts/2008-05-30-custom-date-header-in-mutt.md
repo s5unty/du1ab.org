@@ -1,10 +1,6 @@
 ---
-categories:
-- var
 date: "2008-05-30T00:00:00Z"
-tags:
-- hack
-- mutt
+tags: b/邮件/2/a
 title: custom date header in mutt
 ---
 

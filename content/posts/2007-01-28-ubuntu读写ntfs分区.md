@@ -1,8 +1,6 @@
 ---
-categories:
-- var
 date: "2007-01-28T00:00:00Z"
-tags: []
+tags: b/文件系统
 title: ubuntu读写ntfs分区
 ---
 
