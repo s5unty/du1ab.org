@@ -1,10 +1,6 @@
 ---
-categories:
-- var
 date: "2016-08-28T00:00:00Z"
-tags:
-- ansible
-- nfs
+tags: [b/配置/3, b/文件系统/2]
 title: 一个解决 NFS 挂载点无法 umount 的方法
 ---
 

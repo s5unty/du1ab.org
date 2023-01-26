@@ -1,13 +1,6 @@
 ---
-categories:
-- lib
 date: "2015-08-07T00:00:00Z"
-tags:
-- proxy
-- smtp
-- msmtp
-- mutt
-- gmail
+tags: [b/邮件/1/l, b/谷歌/12]
 title: msmtp and gmail and smtp and proxy
 ---
 

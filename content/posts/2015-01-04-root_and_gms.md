@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2015-01-04T00:00:00Z"
-tags:
-- android
+tags: b/主机/4
 title: root and gms
 ---
 

@@ -1,11 +1,6 @@
 ---
-categories:
-- bin
 date: "2011-04-12T00:00:00Z"
-tags:
-- vim
-- vimperator
-- pentadactyl
+tags: [b/浏览器/3, b/编辑器/2/l]
 title: Vimperator 和 Pentadactyl
 ---
 

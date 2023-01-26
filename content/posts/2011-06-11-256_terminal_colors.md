@@ -1,27 +1,26 @@
 ---
-categories:
-- usr
 date: "2011-06-11T00:00:00Z"
-tags:
-- vim
+tags: b/命令行/12
 title: 256 terminal colors
 ---
 
 <div style="font-family: monospace">
-  <span style="color:#aaaaaa;background: #000000;">&nbsp;<b>0</b>
-  #000000</span> <span style="color:#aaaaaa;background: #800000;">&nbsp;<b>1</b>
-  #800000</span> <span style="color:#aaaaaa;background: #008000;">&nbsp;<b>2</b>
-  #008000</span> <span style="color:#aaaaaa;background: #808000;">&nbsp;<b>3</b>
-  #808000</span> <span style="color:#aaaaaa;background: #000080;">&nbsp;<b>4</b>
-  #000080</span> <span style="background: #800080;">&nbsp;<b>5</b>
-  #800080</span> <span style="background: #008080;">&nbsp;<b>6</b>
-  #008080</span> <span style="background: #c0c0c0;">&nbsp;<b>7</b>
-  #c0c0c0</span><br>
-  <span style="background: #808080;">&nbsp;<b>8</b> #808080</span>
+  <span style="color:#aaaaaa;background: #000000;">&nbsp;<b>0</b> #000000</span>
+  <span style="color:#aaaaaa;background: #800000;">&nbsp;<b>1</b> #800000</span>
+  <span style="color:#aaaaaa;background: #008000;">&nbsp;<b>2</b> #008000</span>
+  <span style="color:#aaaaaa;background: #808000;">&nbsp;<b>3</b> #808000</span>
+  <br>
+  <span style="color:#aaaaaa;background: #000080;">&nbsp;<b>4</b> #000080</span>
+  <span style="color:#aaaaaa;background: #800080;">&nbsp;<b>5</b> #800080</span>
+  <span style="color:#aaaaaa;background: #008080;">&nbsp;<b>6</b> #008080</span>
+  <span style="background: #c0c0c0;">&nbsp;<b>7</b> #c0c0c0</span>
+  <br>
+  <span style="color:#aaaaaa;background: #808080;">&nbsp;<b>8</b> #808080</span>
   <span style="background: #ff0000;">&nbsp;<b>9</b> #ff0000</span>
   <span style="background: #00ff00;"><b>10</b> #00ff00</span>
   <span style="background: #ffff00;"><b>11</b> #ffff00</span>
-  <span style="background: #0000ff;"><b>12</b> #0000ff</span>
+  <br>
+  <span style="color:#aaaaaa;background: #0000ff;"><b>12</b> #0000ff</span>
   <span style="background: #ff00ff;"><b>13</b> #ff00ff</span>
   <span style="background: #00ffff;"><b>14</b> #00ffff</span>
   <span style="background: #ffffff;"><b>15</b> #ffffff</span><br>

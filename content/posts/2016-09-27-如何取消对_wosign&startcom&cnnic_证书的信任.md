@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2016-09-27T00:00:00Z"
-tags:
-- made
+tags: b/信息安全/4
 title: 如何取消对 WoSign&StartCom&CNNIC 证书的信任
 ---
 

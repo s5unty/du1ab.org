@@ -1,12 +1,6 @@
 ---
-categories:
-- var
 date: "2012-04-18T00:00:00Z"
-tags:
-- mail
-- textwidth
-- vim
-- autofmt
+tags: b/邮件/5
 title: is there a recommended textwidth for documentation
 ---
 

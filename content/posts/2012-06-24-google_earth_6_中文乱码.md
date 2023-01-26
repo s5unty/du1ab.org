@@ -1,10 +1,6 @@
 ---
-categories:
-- usr
 date: "2012-06-24T00:00:00Z"
-tags:
-- google
-- cjk
+tags: [b/谷歌/10, b/文档/8/a]
 title: Google Earth 6 中文乱码
 ---
 

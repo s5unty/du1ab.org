@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2012-03-31T00:00:00Z"
-tags:
-- tar
+tags: b/命令行/15
 title: 提取tgz里面的tgz里面的tgz
 ---
 

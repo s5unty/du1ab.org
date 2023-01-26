@@ -1,12 +1,6 @@
 ---
-categories:
-- var
 date: "2017-08-12T00:00:00Z"
-tags:
-- ubuntu
-- debian
-- kali
-- stretch
+tags: b/网络/7
 title: SoftEther 编译报错的问题
 ---
 

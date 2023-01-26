@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2015-12-13T00:00:00Z"
-tags:
-- salt
+tags: b/配置/1
 title: SaltStack
 ---
 

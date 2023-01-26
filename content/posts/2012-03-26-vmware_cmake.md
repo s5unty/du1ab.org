@@ -1,10 +1,6 @@
 ---
-categories:
-- var
 date: "2012-03-26T00:00:00Z"
-tags:
-- vmware
-- cmake
+tags: b/虚拟化/2
 title: vmware cmake
 ---
 

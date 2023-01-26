@@ -1,13 +1,6 @@
 ---
-categories:
-- var
 date: "2011-03-16T00:00:00Z"
-tags:
-- wiki
-- gollum
-- html
-- flash
-- video
+tags: [b/文档/6, b/编程/6/f]
 title: make the embed tag usable with gollum
 ---
 

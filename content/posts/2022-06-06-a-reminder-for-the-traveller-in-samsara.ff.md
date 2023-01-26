@@ -1,17 +1,7 @@
 ---
 date: 2022-06-06T20:58:14+0800
 title: 给娑婆世界旅行者的提醒
-tags:
-- 五蕴
-- 十二处
-- 十八界
-- 缘起
-- 五戒
-- 八戒
-- 四界
-- 止禅
-- 观禅
-categories: [boot]
+tags: b/仿佛
 cover:
   image: "https://du1ab.one/images/2022/u_agganna_sayadaw.jpeg"
   caption: "A Reminder For The Traveller in Samsara"

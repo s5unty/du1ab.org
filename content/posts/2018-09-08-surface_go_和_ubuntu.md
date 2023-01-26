@@ -1,13 +1,6 @@
 ---
-categories:
-- var
 date: "2018-09-08T00:00:00Z"
-tags:
-- ms
-- grub
-- efi
-- ubuntu
-- surface
+tags: [b/主机/5, b/操作系统/1/a/2]
 title: Surface Go 和 Ubuntu
 ---
 

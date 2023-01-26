@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2015-01-26T00:00:00Z"
-tags:
-- hack
+tags: b/文档/11
 title: Simplenote Command Line Interface
 ---
 

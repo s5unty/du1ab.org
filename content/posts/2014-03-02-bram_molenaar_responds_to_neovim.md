@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2014-03-02T00:00:00Z"
-tags:
-- vim
+tags: b/编辑器/8
 title: Bram Molenaar responds to NeoVIM
 ---
 

@@ -1,11 +1,6 @@
 ---
-categories:
-- usr
 date: "2011-01-02T00:00:00Z"
-tags:
-- mac
-- osx
-- virtualbox
+tags: b/虚拟化/1
 title: VirtualBox 安装 Mac OS X
 ---
 

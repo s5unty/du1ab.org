@@ -1,10 +1,6 @@
 ---
-categories:
-- usr
 date: "2015-03-11T00:00:00Z"
-tags:
-- note
-- outliner
+tags: b/文档/12
 title: 感谢 Diigo 让我找到 Workflowy
 ---
 

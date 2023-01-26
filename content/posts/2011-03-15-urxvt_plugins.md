@@ -1,9 +1,6 @@
 ---
-categories:
-- var
 date: "2011-03-15T00:00:00Z"
-tags:
-- urxvt
+tags: b/命令行/10/a
 title: urxvt plugins
 ---
 
