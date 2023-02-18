@@ -53,6 +53,6 @@ showtoc: false
 ### 挂载本地
 挂到本地用。如果以 root 挂载的话，最好加上 `--allow-other` 。
 
-```sh-session
+```console
 $ rclone mount gg:/ /mnt/gg --daemon --allow-other
 ```
