@@ -4,4 +4,4 @@ tags: b/编程/6/b
 title: git object
 ---
 
-![](http://du1ab.one/images/2009/04/objects-example.png)
+![](https://blog.du1ab.org/2009/04/objects-example.png)

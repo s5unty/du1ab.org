@@ -14,7 +14,7 @@ title: ClusterSSH
 
 使用 [ClusterSSH][1] 同时操作多台服务器的截图(动画)：
 
-![](http://du1ab.one/images/2013/clusterssh.gif =800x600)
+![](https://blog.du1ab.org/2013/clusterssh.gif =800x600)
 
 还支持 Telnet 哦。
 

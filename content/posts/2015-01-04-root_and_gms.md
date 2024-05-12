@@ -27,11 +27,11 @@ Odin[1] -> CWM[2] -> root[3] -> GMS[4]
 - http://odindownload.com/[Odin-3.09]
   三星 Android 手机/平板的刷机工具。
 
-- http://du1ab.one/images/2015/0103/n9008v-cwm-recovery-6.0.4.6-jb-cn.tar[n9008v-cwm-recovery-6.0.4.6-jb-cn.tar]
+- https://blog.du1ab.org/2015/0103/n9008v-cwm-recovery-6.0.4.6-jb-cn.tar[n9008v-cwm-recovery-6.0.4.6-jb-cn.tar]
   CWM 是第三方刷机工具，可以刷非官方的ROM。以上链接 N9008S 亲测可用。
 
-- http://du1ab.one/images/2015/0103/SuperSU-v2.42.zip[SuperSU-v2.42.zip]
+- https://blog.du1ab.org/2015/0103/SuperSU-v2.42.zip[SuperSU-v2.42.zip]
   安装了此应用的机器表明已经 root。
 
-- http://du1ab.one/images/2015/0103/gapps-kk-4.4.2.zip[gapps-kk-4.4.2.zip]
+- https://blog.du1ab.org/2015/0103/gapps-kk-4.4.2.zip[gapps-kk-4.4.2.zip]
   Google Mobile Services(Google服务框架)，必须和当前运行的 Android 系统版本匹配。

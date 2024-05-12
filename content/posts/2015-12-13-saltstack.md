@@ -4,4 +4,4 @@ tags: b/配置/1
 title: SaltStack
 ---
 
-![SaltStack](http://du1ab.one/images/2015/saltstack.png)
+![SaltStack](https://blog.du1ab.org/2015/saltstack.png)

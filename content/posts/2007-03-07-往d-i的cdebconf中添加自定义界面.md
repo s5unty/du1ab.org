@@ -10,29 +10,29 @@ title: 往d-i的cdebconf中添加自定义界面
 
 * 输入"install DEBIAN_FRONTEND=newt"信息后，回车启动安装程序
 
-    ![](http://du1ab.one/images/2007/boot.png)
+    ![](https://blog.du1ab.org/2007/boot.png)
 
 * 启动完毕后的看到的newt界面
 
-    ![](http://du1ab.one/images/2007/booted.png)
+    ![](https://blog.du1ab.org/2007/booted.png)
 
 * 使用Ctrl-Alt-2切换到qemu的命令行窗口，输入"sendkey ctrl-alt-f2"
 
-    ![](http://du1ab.one/images/2007/sendkey.png)
+    ![](https://blog.du1ab.org/2007/sendkey.png)
 
 * 使用Ctrl-Alt-1切换到d-i的安装程序中，拥有了busybox下的提示符
 
-    ![](http://du1ab.one/images/2007/activate.png)
-    ![](http://du1ab.one/images/2007/busybox.png)
+    ![](https://blog.du1ab.org/2007/activate.png)
+    ![](https://blog.du1ab.org/2007/busybox.png)
 
 * nano编辑/hello.templates和/hello.config，设置/hello.config的可执行权限
 
-    ![](http://du1ab.one/images/2007/hello_config.png)
-    ![](http://du1ab.one/images/2007/hello_templates.png)
+    ![](https://blog.du1ab.org/2007/hello_config.png)
+    ![](https://blog.du1ab.org/2007/hello_templates.png)
 
 * nano编辑/sbin/debian-installer文件，export MENU=/hello.config
 
-    ![](http://du1ab.one/images/2007/debian-installer.png)
+    ![](https://blog.du1ab.org/2007/debian-installer.png)
 
 * 执行debconf-loadtemplates d-i /hello.templates
 
@@ -40,8 +40,8 @@ title: 往d-i的cdebconf中添加自定义界面
 
 * 执行debian-installer
 
-    ![](http://du1ab.one/images/2007/reday_go.png)
+    ![](https://blog.du1ab.org/2007/reday_go.png)
 
 * 运行效果
 
-    ![](http://du1ab.one/images/2007/inside.png)
+    ![](https://blog.du1ab.org/2007/inside.png)

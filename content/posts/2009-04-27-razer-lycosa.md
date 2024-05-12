@@ -6,7 +6,7 @@ title: Razer Lycosa
 
 几年前买的 Razer Lycosa 键盘，右上角有 6 个功能键，外加1个键盘背景灯开关键
 
-![](http://du1ab.one/images/2009/04/razer.jpg)
+![](https://blog.du1ab.org/2009/04/razer.jpg)
 
 一直以来我都认为这 6 个功能键在 GNU/Linux 下没有驱动是无法使用的。不过今天碰巧
 看到一篇 <http://stebalien.com/2008/09/linux-razer-lycosa-wtf.html> 帖子，我从

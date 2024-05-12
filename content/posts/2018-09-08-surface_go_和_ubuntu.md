@@ -22,9 +22,9 @@ Surface 默认是 Win10 系统，一直想换成 Linux 系统，从昨天搞到�
 4. 进入「BIOS」
    如何进入？关机状态下，按住「音量上」键，再按住「电源键」，看到微软的 Logo 后，松开两个键即可。
 5. 关闭「Secure Boot」
-   ![实物截图](http://du1ab.one/images/2018/secure.png)
+   ![实物截图](https://blog.du1ab.org/2018/secure.png)
 6. 调整引导顺序
-   ![实物截图](http://du1ab.one/images/2018/order.png)
+   ![实物截图](https://blog.du1ab.org/2018/order.png)
 7. 退出「BIOS」
 8. 等待「Grub」
 9. 正常安装即可
@@ -40,4 +40,4 @@ Surface 默认是 Win10 系统，一直想换成 Linux 系统，从昨天搞到�
 [ref-reddit]: https://www.reddit.com/r/SurfaceLinux/comments/94hjxv/surface_go_first_impressions/
 [ref-csdn]: https://blog.csdn.net/x13945/article/details/51219070
 [ref-github]: https://github.com/ndeineko/grub2-bios-uefi-usb
-[img-ubuntu]: http://du1ab.one/images/2018/ss_20180908_194701.png
+[img-ubuntu]: https://blog.du1ab.org/2018/ss_20180908_194701.png

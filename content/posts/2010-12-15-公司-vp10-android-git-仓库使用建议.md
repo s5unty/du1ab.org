@@ -228,5 +228,5 @@ PROMPT_COMMAND="find_git_branch; $PROMPT_COMMAND"
 PS1="[\u@\h:\w\$git_branch]\$ "
 ```
 
-[conflict.png]: http://du1ab.one/images/2010/12/conflict.png "冲突"
-[solved.png]: http://du1ab.one/images/2010/12/solved.png     "解决"
+[conflict.png]: https://blog.du1ab.org/2010/12/conflict.png "冲突"
+[solved.png]: https://blog.du1ab.org/2010/12/solved.png     "解决"
