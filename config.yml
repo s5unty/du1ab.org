@@ -159,7 +159,7 @@ params:
 
   # 提请编辑本篇博客的跳转链接(类似于pull request)
   editPost:
-    URL: "https://github.com/s5unty/du1ab.one/tree/master/content"
+    URL: "https://github.com/s5unty/du1ab.org/tree/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
