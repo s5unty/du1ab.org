@@ -1,6 +1,6 @@
 ---
 date: "2007-01-12T00:00:00Z"
-tags: b/编辑器/4/b
+tags: ide/code-blocks
 title: About Code::Blocks
 ---
 

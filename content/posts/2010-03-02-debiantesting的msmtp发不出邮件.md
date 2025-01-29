@@ -1,6 +1,6 @@
 ---
 date: "2010-03-02T00:00:00Z"
-tags: b/邮件/4/b
+tags: mutt/邮件
 title: debian/testing 的 msmtp 发不出邮件
 ---
 

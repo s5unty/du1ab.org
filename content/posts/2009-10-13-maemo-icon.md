@@ -1,6 +1,6 @@
 ---
 date: "2009-10-13T00:00:00Z"
-tags: b/编程/3/e
+tags: dev/gtk
 title: Maemo icon
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: "2008-05-30T00:00:00Z"
-tags: b/邮件/2/a
+tags: mutt/邮件
 title: custom date header in mutt
 ---
 

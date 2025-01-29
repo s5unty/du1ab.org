@@ -1,6 +1,6 @@
 ---
 date: "2012-10-25T00:00:00Z"
-tags: b/编辑器/7
+tags: ide/sublime
 title: Sublime Text 2 三十分钟体验
 ---
 

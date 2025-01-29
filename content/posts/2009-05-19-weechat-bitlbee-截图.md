@@ -1,6 +1,6 @@
 ---
 date: "2009-05-19T00:00:00Z"
-tags: b/聊天/2
+tags: im/即时通讯
 title: weechat + bitlbee 截图
 ---
 

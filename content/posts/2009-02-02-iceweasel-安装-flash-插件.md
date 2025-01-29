@@ -1,6 +1,6 @@
 ---
 date: "2009-02-02T00:00:00Z"
-tags: b/浏览器/2
+tags: www/浏览器
 title: Iceweasel - 安装 Flash 插件
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: "2012-04-18T00:00:00Z"
-tags: b/邮件/5
+tags: mutt/邮件
 title: is there a recommended textwidth for documentation
 ---
 

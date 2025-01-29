@@ -1,7 +1,7 @@
 ---
 date: 2022-06-06T20:58:14+0800
 title: 给娑婆世界旅行者的提醒
-tags: b/仿佛
+tags: ff/仿佛
 cover:
   image: "https://blog.du1ab.org/2022/u_agganna_sayadaw.jpeg"
   caption: "A Reminder For The Traveller in Samsara"

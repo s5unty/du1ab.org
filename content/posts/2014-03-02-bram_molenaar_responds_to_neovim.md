@@ -1,6 +1,6 @@
 ---
 date: "2014-03-02T00:00:00Z"
-tags: b/编辑器/8
+tags: ide/vi
 title: Bram Molenaar responds to NeoVIM
 ---
 

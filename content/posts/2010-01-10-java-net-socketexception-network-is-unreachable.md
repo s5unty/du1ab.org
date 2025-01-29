@@ -1,6 +1,6 @@
 ---
 date: "2010-01-10T00:00:00Z"
-tags: b/编程/8
+tags: dev/java
 title: 'java.net.SocketException: Network is unreachable'
 ---
 

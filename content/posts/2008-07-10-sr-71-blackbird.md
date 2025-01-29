@@ -1,6 +1,6 @@
 ---
 date: "2008-07-10T00:00:00Z"
-tags: b/故事/4/a
+tags: life/story/故事
 title: SR-71 Blackbird
 ---
 

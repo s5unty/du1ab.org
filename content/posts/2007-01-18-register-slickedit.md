@@ -1,6 +1,6 @@
 ---
 date: "2007-01-18T00:00:00Z"
-tags: b/编辑器/1/f
+tags: ide/se
 title: Register SlickEdit
 ---
 

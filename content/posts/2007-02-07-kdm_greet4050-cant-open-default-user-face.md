@@ -1,6 +1,6 @@
 ---
 date: "2007-02-07T00:00:00Z"
-tags: b/操作系统/4/c
+tags: os/kde
 title: 'kdm_greet[4050]: Can''t open default user face'
 ---
 

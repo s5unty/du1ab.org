@@ -1,6 +1,6 @@
 ---
 date: "2012-03-31T00:00:00Z"
-tags: b/命令行/15
+tags: cmd/tar
 title: 提取tgz里面的tgz里面的tgz
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: "2018-09-08T00:00:00Z"
-tags: [b/主机/5, b/操作系统/1/a/2]
+tags: [life/pc/电脑, os/ubuntu]
 title: Surface Go 和 Ubuntu
 ---
 

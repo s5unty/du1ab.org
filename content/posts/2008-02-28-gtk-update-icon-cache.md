@@ -1,6 +1,6 @@
 ---
 date: "2008-02-28T00:00:00Z"
-tags: b/编程/3/d
+tags: dev/gtk
 title: gtk-update-icon-cache
 ---
 

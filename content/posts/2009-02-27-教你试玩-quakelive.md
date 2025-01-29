@@ -1,6 +1,6 @@
 ---
 date: "2009-02-27T00:00:00Z"
-tags: b/游戏/4
+tags: game/游戏
 title: 教你试玩 QuakeLive
 ---
 

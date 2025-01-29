@@ -1,6 +1,6 @@
 ---
 date: "2006-10-08T00:00:00Z"
-tags: b/字体/1
+tags: font/字体
 title: ubuntu安装simsun字体
 ---
 

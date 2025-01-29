@@ -1,6 +1,6 @@
 ---
 date: "2008-01-16T00:00:00Z"
-tags: b/文档/1/b
+tags: txt/文档
 title: 几个在 docbook 向 html 文件转换过程中影响显示效果的参数
 ---
 

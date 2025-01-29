@@ -1,6 +1,6 @@
 ---
 date: "2006-09-07T00:00:00Z"
-tags: b/编程/6/e
+tags: dev/svn
 title: "安装svn&apache2&ssl"
 ---
 

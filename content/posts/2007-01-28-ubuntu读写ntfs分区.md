@@ -1,6 +1,6 @@
 ---
 date: "2007-01-28T00:00:00Z"
-tags: b/文件系统/1
+tags: life/pc
 title: ubuntu读写ntfs分区
 ---
 

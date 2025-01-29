@@ -1,6 +1,6 @@
 ---
 date: "2007-09-12T00:00:00Z"
-tags: b/字体/6
+tags: font/字体
 title: gmail notifier 字体修改
 ---
 

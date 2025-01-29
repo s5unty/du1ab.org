@@ -1,6 +1,6 @@
 ---
 date: "2009-04-27T00:00:00Z"
-tags: b/操作系统/1/c
+tags: life/pc
 title: Razer Lycosa
 ---
 

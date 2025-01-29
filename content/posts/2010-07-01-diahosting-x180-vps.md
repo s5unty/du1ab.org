@@ -1,6 +1,6 @@
 ---
 date: "2010-07-01T00:00:00Z"
-tags: b/主机/3/b
+tags: life/pc/电脑
 title: DiaHosting X180 型号的 VPS
 ---
 

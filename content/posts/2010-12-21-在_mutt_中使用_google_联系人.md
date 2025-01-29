@@ -1,6 +1,6 @@
 ---
 date: "2010-12-21T00:00:00Z"
-tags: [b/邮件/1/f, b/谷歌/9]
+tags: [mutt/邮件, google]
 title: 在 Mutt 中使用 Google 联系人
 ---
 

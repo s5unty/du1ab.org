@@ -1,6 +1,6 @@
 ---
 date: "2006-10-08T00:00:00Z"
-tags: b/操作系统/3
+tags: oss/ubuntu
 title: ubuntuchina组当前任务
 ---
 

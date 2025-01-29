@@ -1,6 +1,6 @@
 ---
 date: "2007-02-13T00:00:00Z"
-tags: b/编程/3
+tags: dev/gtk
 title: GTK_on_DirectFB
 ---
 

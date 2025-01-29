@@ -1,6 +1,6 @@
 ---
 date: "2006-10-10T00:00:00Z"
-tags: [b/文档/5/a, b/字体/1]
+tags: [txt/文档, font/字体]
 title: evince查看中文pdf
 ---
 

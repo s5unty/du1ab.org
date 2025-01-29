@@ -1,6 +1,6 @@
 ---
 date: "2007-03-06T00:00:00Z"
-tags: b/操作系统/6
+tags: os/debian
 title: video=vesa:option[,options]
 ---
 

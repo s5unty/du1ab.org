@@ -1,6 +1,6 @@
 ---
 date: "2006-12-31T00:00:00Z"
-tags: b/命令行/1
+tags: cli/mc
 title: Midnight Commander (MC)
 ---
 

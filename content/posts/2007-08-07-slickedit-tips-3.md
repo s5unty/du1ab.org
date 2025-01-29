@@ -1,6 +1,6 @@
 ---
 date: "2007-08-07T00:00:00Z"
-tags: b/编辑器/1/k
+tags: ide/se
 title: SlickEdit Tips
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: "2011-01-02T00:00:00Z"
-tags: b/虚拟化/1
+tags: life/pc
 title: VirtualBox 安装 Mac OS X
 ---
 

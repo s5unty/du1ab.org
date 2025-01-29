@@ -1,6 +1,6 @@
 ---
 date: "2008-05-21T00:00:00Z"
-tags: b/文档/2/b
+tags: txt/文档
 title: "asciidoc pdf fop 中文"
 ---
 

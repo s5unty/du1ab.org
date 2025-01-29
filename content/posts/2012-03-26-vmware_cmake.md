@@ -1,6 +1,6 @@
 ---
 date: "2012-03-26T00:00:00Z"
-tags: b/虚拟化/2
+tags: vps/vmware
 title: vmware cmake
 ---
 

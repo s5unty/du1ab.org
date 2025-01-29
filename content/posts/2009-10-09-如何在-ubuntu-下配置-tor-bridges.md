@@ -1,6 +1,6 @@
 ---
 date: "2009-10-09T00:00:00Z"
-tags: b/网络/1/b
+tags: www/tor
 title: 如何在 Ubuntu 下配置 TOR Bridges
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: "2007-01-15T00:00:00Z"
-tags: b/操作系统/1/a/1
+tags: os/grub
 title: grub install
 ---
 

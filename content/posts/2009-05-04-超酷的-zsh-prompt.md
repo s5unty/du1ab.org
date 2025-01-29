@@ -1,6 +1,6 @@
 ---
 date: "2009-05-04T00:00:00Z"
-tags: b/命令行/4/g
+tags: sh/zsh
 title: 超酷的 zsh-prompt
 ---
 

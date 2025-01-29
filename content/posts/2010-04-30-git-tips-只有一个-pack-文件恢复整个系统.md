@@ -1,6 +1,6 @@
 ---
 date: "2010-04-30T00:00:00Z"
-tags: b/编程/6/c
+tags: git
 title: git tips 只有一个 pack 文件恢复整个系统
 ---
 

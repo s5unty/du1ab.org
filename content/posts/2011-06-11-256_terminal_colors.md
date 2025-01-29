@@ -1,6 +1,6 @@
 ---
 date: "2011-06-11T00:00:00Z"
-tags: b/命令行/12
+tags: sh/shell
 title: 256 terminal colors
 ---
 

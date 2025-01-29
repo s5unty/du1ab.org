@@ -1,6 +1,6 @@
 ---
 date: "2006-12-08T00:00:00Z"
-tags: b/文档/4
+tags: txt/文档
 title: tiddlywiki不错
 ---
 

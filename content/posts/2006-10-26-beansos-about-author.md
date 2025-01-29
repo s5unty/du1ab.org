@@ -1,6 +1,6 @@
 ---
 date: "2006-10-26T00:00:00Z"
-tags: b/操作系统/1/e
+tags: os
 title: Beans'OS about author
 ---
 

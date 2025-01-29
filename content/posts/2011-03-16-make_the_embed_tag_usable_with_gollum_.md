@@ -1,6 +1,6 @@
 ---
 date: "2011-03-16T00:00:00Z"
-tags: [b/文档/6, b/编程/6/f]
+tags: [txt/文档, git]
 title: make the embed tag usable with gollum
 ---
 

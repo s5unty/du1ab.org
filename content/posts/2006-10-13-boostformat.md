@@ -1,6 +1,6 @@
 ---
 date: "2006-10-13T00:00:00Z"
-tags: b/编程/4
+tags: dev/cpp
 title: boost::format
 ---
 

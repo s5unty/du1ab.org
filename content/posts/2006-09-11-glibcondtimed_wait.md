@@ -1,6 +1,6 @@
 ---
 date: "2006-09-11T00:00:00Z"
-tags: b/编程/3/g
+tags: dev/gtk
 title: Glib::Cond::timed_wait
 ---
 

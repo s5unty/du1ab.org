@@ -1,6 +1,6 @@
 ---
 date: "2013-02-18T00:00:00Z"
-tags: b/命令行/16
+tags: cmd/ssh
 title: ClusterSSH
 ---
 

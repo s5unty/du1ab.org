@@ -1,6 +1,6 @@
 ---
 date: "2015-12-13T00:00:00Z"
-tags: b/配置/1
+tags: ide
 title: SaltStack
 ---
 

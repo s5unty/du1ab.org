@@ -1,6 +1,6 @@
 ---
 date: "2007-03-16T00:00:00Z"
-tags: b/命令行/4
+tags: sh/zsh term/mlterm
 title: 解决zsh在mlterm下用screen时homeend键功能异常的问题
 ---
 

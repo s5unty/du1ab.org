@@ -1,6 +1,6 @@
 ---
 date: "2006-10-12T00:00:00Z"
-tags: b/谷歌/2/b
+tags: google
 title: yourname+sth@gmail.com
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: "2007-08-12T00:00:00Z"
-tags: b/编程/4/c
+tags: dev/gtk
 title: Get ascii code from GdkEventKey-Keyval
 ---
 

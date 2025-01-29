@@ -1,6 +1,6 @@
 ---
 date: "2006-09-14T00:00:00Z"
-tags: b/编程/1/c
+tags: dev/cpp dev/java
 title: Java, Mono, or C++?
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: "2011-04-12T00:00:00Z"
-tags: [b/浏览器/3, b/编辑器/2/l]
+tags: [www/浏览器, ide/vi]
 title: Vimperator 和 Pentadactyl
 ---
 

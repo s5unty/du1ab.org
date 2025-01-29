@@ -1,6 +1,6 @@
 ---
 date: "2007-08-10T00:00:00Z"
-tags: b/操作系统/2/g
+tags: os/debian dev/dpkg
 title: dpkg buildpackage 和 debuild 的一点区别
 ---
 

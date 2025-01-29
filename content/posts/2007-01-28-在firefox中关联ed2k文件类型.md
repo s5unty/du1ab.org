@@ -1,6 +1,6 @@
 ---
 date: "2007-01-28T00:00:00Z"
-tags: b/浏览器/1/b
+tags: www/浏览器
 title: 在firefox中关联ed2k文件类型
 ---
 

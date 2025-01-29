@@ -1,6 +1,6 @@
 ---
 date: "2016-08-28T00:00:00Z"
-tags: [b/配置/3, b/文件系统/2]
+tags: [cmd/mount, cmd/umount]
 title: 一个解决 NFS 挂载点无法 umount 的方法
 ---
 

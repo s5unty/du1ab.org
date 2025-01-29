@@ -1,6 +1,6 @@
 ---
 date: "2015-01-26T00:00:00Z"
-tags: b/文档/11
+tags: txt/文档
 title: Simplenote Command Line Interface
 ---
 

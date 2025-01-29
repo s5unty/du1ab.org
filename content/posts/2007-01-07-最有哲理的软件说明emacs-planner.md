@@ -1,6 +1,6 @@
 ---
 date: "2007-01-07T00:00:00Z"
-tags: b/编辑器/3/a
+tags: ide/emacs
 title: 最有哲理的软件说明emacs planner
 ---
 

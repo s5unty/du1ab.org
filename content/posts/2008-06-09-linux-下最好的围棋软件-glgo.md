@@ -1,6 +1,6 @@
 ---
 date: "2008-06-09T00:00:00Z"
-tags: b/游戏/3
+tags: game/游戏
 title: linux 下最好的围棋软件 glgo
 ---
 

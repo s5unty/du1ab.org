@@ -1,6 +1,6 @@
 ---
 date: "2006-12-11T00:00:00Z"
-tags: [b/操作系统/3/a, b/字体/2]
+tags: [os, font/字体]
 title: ubuntu使用simsun字体
 ---
 

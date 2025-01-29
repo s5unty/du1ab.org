@@ -1,6 +1,6 @@
 ---
 date: "2007-08-31T00:00:00Z"
-tags: b/编辑器/3/b
+tags: ide/emacs
 title: 如何不重新启动 emacs 就让 emacs 的配置起作用
 ---
 

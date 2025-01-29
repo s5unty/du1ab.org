@@ -1,6 +1,6 @@
 ---
 date: "2007-03-06T00:00:00Z"
-tags: b/编程/3/b
+tags: dev/gtk
 title: ii undefined symbol cairo_xlib_surface_create
 ---
 

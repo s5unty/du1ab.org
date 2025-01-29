@@ -1,6 +1,6 @@
 ---
 date: "2015-01-04T00:00:00Z"
-tags: b/主机/4
+tags: life/pc/电脑
 title: root and gms
 ---
 

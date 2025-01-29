@@ -1,6 +1,6 @@
 ---
 date: "2017-08-12T00:00:00Z"
-tags: b/网络/7
+tags: www/vpn
 title: SoftEther 编译报错的问题
 ---
 
