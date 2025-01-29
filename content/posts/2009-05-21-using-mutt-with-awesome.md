@@ -1,6 +1,6 @@
 ---
 date: "2009-05-21T00:00:00Z"
-tags: os/awesome term/urxvt cli/mutt
+tags: [os/awesome, term/urxvt, cli/mutt]
 title: Using Mutt with Awesome
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: "2015-08-07T00:00:00Z"
-tags: [mutt/邮件/1/l, google]
+tags: [mutt/邮件, google]
 title: msmtp and gmail and smtp and proxy
 ---
 

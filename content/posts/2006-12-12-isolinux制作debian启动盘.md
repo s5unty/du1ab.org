@@ -1,6 +1,6 @@
 ---
 date: "2006-12-12T00:00:00Z"
-tags: os/debian os/boot
+tags: [ os/debian, os/boot ]
 title: isolinux制作debian启动盘
 ---
 
